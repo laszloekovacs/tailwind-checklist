@@ -1,8 +1,58 @@
 {
-  "groups": [
-    {
-      "title": "layout",
-      "content": ["aspect-ratio", "container", "columns", "break-after"]
-    }
-  ]
+    "groups": [
+        {
+            "title": "layout",
+            "content": [
+                "aspect-ratio",
+                "container",
+                "columns",
+                "break-after",
+                "break-before",
+                "break-inside",
+                "box-decoration-break",
+                "box-sizing",
+                "display",
+                "floats",
+                "clear",
+                "isolation",
+                "object-fit",
+                "object-position",
+                "overflow",
+                "overscroll-behavior",
+                "position",
+                "top-right-bottom-left",
+                "visibility",
+                "z-index"
+            ]
+        },
+        {
+            "title": "flexbox and grid",
+            "content": [
+                "flex-basis",
+                "flex-direction",
+                "flex-wrap",
+                "flex",
+                "flex-grow",
+                "flex-shrink",
+                "order",
+                "grid-template-columns",
+                "grid-column",
+                "grid-template-rows",
+                "grid-row",
+                "grid-auto-flow",
+                "grid-auto-columns",
+                "grid-auto-rows",
+                "gap",
+                "justify-content",
+                "justify-items",
+                "justify-self",
+                "align-content",
+                "align-items",
+                "align-self",
+                "place-content",
+                "place-items",
+                "place-self"
+            ]
+        }
+    ]
 }
