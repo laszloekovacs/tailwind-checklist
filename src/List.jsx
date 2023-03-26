@@ -1,6 +1,6 @@
 import React from 'react'
 import { useQuery } from 'react-query'
-import Group from './Group'
+import Item from './Item'
 
 const url =
     'https://raw.githubusercontent.com/laszloekovacs/tailwind-checklist/master/data/data.json'
@@ -11,7 +11,7 @@ const getList = async () => {
     return data
 }
 
-const GroupList = () => {
+const List = () => {
     const { isLoading, error, data } = useQuery('groupList', getList)
 
     if (isLoading) return 'Imagine a spinning icon over here...'
@@ -21,10 +21,10 @@ const GroupList = () => {
     return (
         <ul className="columns-3xs">
             {data.groups.map((g) => (
-                <Group key={g.title} group={g} />
+                <Item key={g.title} group={g} />
             ))}
         </ul>
     )
 }
 
-export default GroupList
+export default List
