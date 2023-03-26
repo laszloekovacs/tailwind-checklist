@@ -19,7 +19,7 @@ const GroupList = () => {
     if (error) return 'An error has occurred: ' + error.message
 
     return (
-        <ul>
+        <ul className="columns-3xs">
             {data.groups.map((g) => (
                 <Group key={g.title} group={g} />
             ))}

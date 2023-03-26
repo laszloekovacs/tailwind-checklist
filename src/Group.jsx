@@ -4,8 +4,8 @@ const base = 'https://tailwindcss.com/docs/'
 
 const Group = ({ group }) => {
     return (
-        <div>
-            <h2>{group.title}</h2>
+        <li className="mb-2">
+            <h2 className="font-bold my-1">{group.title}</h2>
             <ul>
                 {group.content.map((item) => (
                     <li key={item}>
@@ -13,7 +13,7 @@ const Group = ({ group }) => {
                     </li>
                 ))}
             </ul>
-        </div>
+        </li>
     )
 }
 
