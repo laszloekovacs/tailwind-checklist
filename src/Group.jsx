@@ -4,16 +4,19 @@ const base = 'https://tailwindcss.com/docs/'
 
 const Group = ({ group }) => {
     return (
-        <li className="mb-2">
-            <h2 className="font-bold my-1">{group.title}</h2>
-            <ul>
-                {group.content.map((item) => (
-                    <li key={item}>
-                        <a href={base + item}>{item}</a>
-                    </li>
-                ))}
-            </ul>
-        </li>
+        <>
+            <li>
+                <h2 className="font-bold mt-4 mb-1 break-after-avoid">
+                    {group.title}
+                </h2>
+            </li>
+
+            {group.content.map((item) => (
+                <li key={item}>
+                    <a href={base + item}>{item}</a>
+                </li>
+            ))}
+        </>
     )
 }
 
