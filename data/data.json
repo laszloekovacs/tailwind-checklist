@@ -53,6 +53,21 @@
                 "place-items",
                 "place-self"
             ]
+        },
+        {
+            "title": "spacing",
+            "content": ["padding", "margin", "space"]
+        },
+        {
+            "title": "sizing",
+            "content": [
+                "width",
+                "min-width",
+                "max-width",
+                "height",
+                "min-height",
+                "max-height"
+            ]
         }
     ]
 }

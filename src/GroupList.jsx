@@ -19,13 +19,11 @@ const GroupList = () => {
     if (error) return 'An error has occurred: ' + error.message
 
     return (
-        <div>
-            <ul>
-                {data.groups.map((g) => (
-                    <Group key={g.title} group={g} />
-                ))}
-            </ul>
-        </div>
+        <ul>
+            {data.groups.map((g) => (
+                <Group key={g.title} group={g} />
+            ))}
+        </ul>
     )
 }
 
