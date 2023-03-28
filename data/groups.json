@@ -1,224 +1,216 @@
-{
-    "groups": [
-        {
-            "title": "Layout",
-            "content": [
-                "aspect-ratio",
-                "container",
-                "columns",
-                "break-after",
-                "break-before",
-                "break-inside",
-                "box-decoration-break",
-                "box-sizing",
-                "display",
-                "float",
-                "clear",
-                "isolation",
-                "object-fit",
-                "object-position",
-                "overflow",
-                "overscroll-behavior",
-                "position",
-                "top-right-bottom-left",
-                "visibility",
-                "z-index"
-            ]
-        },
-        {
-            "title": "Flexbox and Grid",
-            "content": [
-                "flex-basis",
-                "flex-direction",
-                "flex-wrap",
-                "flex",
-                "flex-grow",
-                "flex-shrink",
-                "order",
-                "grid-template-columns",
-                "grid-column",
-                "grid-template-rows",
-                "grid-row",
-                "grid-auto-flow",
-                "grid-auto-columns",
-                "grid-auto-rows",
-                "gap",
-                "justify-content",
-                "justify-items",
-                "justify-self",
-                "align-content",
-                "align-items",
-                "align-self",
-                "place-content",
-                "place-items",
-                "place-self"
-            ]
-        },
-        {
-            "title": "Spacing",
-            "content": ["padding", "margin", "space"]
-        },
-        {
-            "title": "Sizing",
-            "content": [
-                "width",
-                "min-width",
-                "max-width",
-                "height",
-                "min-height",
-                "max-height"
-            ]
-        },
-        {
-            "title": "Typography",
-            "content": [
-                "font-family",
-                "font-size",
-                "font-smoothing",
-                "font-style",
-                "font-weight",
-                "font-variant-numeric",
-                "letter-spacing",
-                "line-clamp",
-                "line-height",
-                "list-style-image",
-                "list-style-position",
-                "list-style-type",
-                "text-align",
-                "text-color",
-                "text-decoration",
-                "text-decoration-color",
-                "text-decoration-style",
-                "text-decoration-thickness",
-                "text-underline-offset",
-                "text-transform",
-                "text-overflow",
-                "text-indent",
-                "vertical-align",
-                "whitespace",
-                "word-break",
-                "hyphens",
-                "content"
-            ]
-        },
-        {
-            "title": "Backgrounds",
-            "content": [
-                "background-attachment",
-                "background-clip",
-                "background-color",
-                "background-origin",
-                "background-position",
-                "background-repeat",
-                "background-size",
-                "background-image",
-                "gradient-color-stops"
-            ]
-        },
-        {
-            "title": "Borders",
-            "content": [
-                "border-radius",
-                "border-width",
-                "border-style",
-                "border-color",
-                "divide-width",
-                "divide-color",
-                "divide-style",
-                "outline-width",
-                "outline-color",
-                "outline-style",
-                "outline-offset",
-                "ring-width",
-                "ring-color",
-                "ring-offset-width",
-                "ring-offset-color"
-            ]
-        },
-        {
-            "title": "Effects",
-            "content": [
-                "box-shadow",
-                "box-shadow-color",
-                "opacity",
-                "mix-blend-mode",
-                "background-blend-mode"
-            ]
-        },
-        {
-            "title": "Filters",
-            "content": [
-                "blur",
-                "brightness",
-                "contrast",
-                "drop-shadow",
-                "grayscale",
-                "hue-rotate",
-                "invert",
-                "saturate",
-                "sepia",
-                "backdrop-blur",
-                "backdrop-brightness",
-                "backdrop-contrast",
-                "backdrop-grayscale",
-                "backdrop-hue-rotate",
-                "backdrop-invert",
-                "backdrop-opacity",
-                "backdrop-saturate",
-                "backdrop-sepia"
-            ]
-        },
-        {
-            "title": "Tables",
-            "content": ["border-collapse", "border-spacing", "table-layout"]
-        },
-        {
-            "title": "Transitions",
-            "content": [
-                "transition-property",
-                "transition-duration",
-                "transition-timing-function",
-                "transition-delay",
-                "animation"
-            ]
-        },
-        {
-            "title": "Transforms",
-            "content": [
-                "scale",
-                "rotate",
-                "translate",
-                "skew",
-                "transform-origin"
-            ]
-        },
-        {
-            "title": "Interactivity",
-            "content": [
-                "accent-color",
-                "appearance",
-                "cursor",
-                "caret-color",
-                "pointer-events",
-                "resize",
-                "scroll-behavior",
-                "scroll-margin",
-                "scroll-padding",
-                "scroll-snap-align",
-                "scroll-snap-stop",
-                "scroll-snap-type",
-                "touch-action",
-                "user-select",
-                "will-change"
-            ]
-        },
-        {
-            "title": "SVG",
-            "content": ["fill", "stroke", "stroke-width"]
-        },
-        {
-            "title": "Accessibility",
-            "content": ["screen-readers"]
-        }
-    ]
-}
+[
+    {
+        "title": "Layout",
+        "content": [
+            "aspect-ratio",
+            "container",
+            "columns",
+            "break-after",
+            "break-before",
+            "break-inside",
+            "box-decoration-break",
+            "box-sizing",
+            "display",
+            "float",
+            "clear",
+            "isolation",
+            "object-fit",
+            "object-position",
+            "overflow",
+            "overscroll-behavior",
+            "position",
+            "top-right-bottom-left",
+            "visibility",
+            "z-index"
+        ]
+    },
+    {
+        "title": "Flexbox and Grid",
+        "content": [
+            "flex-basis",
+            "flex-direction",
+            "flex-wrap",
+            "flex",
+            "flex-grow",
+            "flex-shrink",
+            "order",
+            "grid-template-columns",
+            "grid-column",
+            "grid-template-rows",
+            "grid-row",
+            "grid-auto-flow",
+            "grid-auto-columns",
+            "grid-auto-rows",
+            "gap",
+            "justify-content",
+            "justify-items",
+            "justify-self",
+            "align-content",
+            "align-items",
+            "align-self",
+            "place-content",
+            "place-items",
+            "place-self"
+        ]
+    },
+    {
+        "title": "Spacing",
+        "content": ["padding", "margin", "space"]
+    },
+    {
+        "title": "Sizing",
+        "content": [
+            "width",
+            "min-width",
+            "max-width",
+            "height",
+            "min-height",
+            "max-height"
+        ]
+    },
+    {
+        "title": "Typography",
+        "content": [
+            "font-family",
+            "font-size",
+            "font-smoothing",
+            "font-style",
+            "font-weight",
+            "font-variant-numeric",
+            "letter-spacing",
+            "line-clamp",
+            "line-height",
+            "list-style-image",
+            "list-style-position",
+            "list-style-type",
+            "text-align",
+            "text-color",
+            "text-decoration",
+            "text-decoration-color",
+            "text-decoration-style",
+            "text-decoration-thickness",
+            "text-underline-offset",
+            "text-transform",
+            "text-overflow",
+            "text-indent",
+            "vertical-align",
+            "whitespace",
+            "word-break",
+            "hyphens",
+            "content"
+        ]
+    },
+    {
+        "title": "Backgrounds",
+        "content": [
+            "background-attachment",
+            "background-clip",
+            "background-color",
+            "background-origin",
+            "background-position",
+            "background-repeat",
+            "background-size",
+            "background-image",
+            "gradient-color-stops"
+        ]
+    },
+    {
+        "title": "Borders",
+        "content": [
+            "border-radius",
+            "border-width",
+            "border-style",
+            "border-color",
+            "divide-width",
+            "divide-color",
+            "divide-style",
+            "outline-width",
+            "outline-color",
+            "outline-style",
+            "outline-offset",
+            "ring-width",
+            "ring-color",
+            "ring-offset-width",
+            "ring-offset-color"
+        ]
+    },
+    {
+        "title": "Effects",
+        "content": [
+            "box-shadow",
+            "box-shadow-color",
+            "opacity",
+            "mix-blend-mode",
+            "background-blend-mode"
+        ]
+    },
+    {
+        "title": "Filters",
+        "content": [
+            "blur",
+            "brightness",
+            "contrast",
+            "drop-shadow",
+            "grayscale",
+            "hue-rotate",
+            "invert",
+            "saturate",
+            "sepia",
+            "backdrop-blur",
+            "backdrop-brightness",
+            "backdrop-contrast",
+            "backdrop-grayscale",
+            "backdrop-hue-rotate",
+            "backdrop-invert",
+            "backdrop-opacity",
+            "backdrop-saturate",
+            "backdrop-sepia"
+        ]
+    },
+    {
+        "title": "Tables",
+        "content": ["border-collapse", "border-spacing", "table-layout"]
+    },
+    {
+        "title": "Transitions",
+        "content": [
+            "transition-property",
+            "transition-duration",
+            "transition-timing-function",
+            "transition-delay",
+            "animation"
+        ]
+    },
+    {
+        "title": "Transforms",
+        "content": ["scale", "rotate", "translate", "skew", "transform-origin"]
+    },
+    {
+        "title": "Interactivity",
+        "content": [
+            "accent-color",
+            "appearance",
+            "cursor",
+            "caret-color",
+            "pointer-events",
+            "resize",
+            "scroll-behavior",
+            "scroll-margin",
+            "scroll-padding",
+            "scroll-snap-align",
+            "scroll-snap-stop",
+            "scroll-snap-type",
+            "touch-action",
+            "user-select",
+            "will-change"
+        ]
+    },
+    {
+        "title": "SVG",
+        "content": ["fill", "stroke", "stroke-width"]
+    },
+    {
+        "title": "Accessibility",
+        "content": ["screen-readers"]
+    }
+]

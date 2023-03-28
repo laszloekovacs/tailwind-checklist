@@ -13,16 +13,16 @@ const Item = ({ link }) => {
 
     return (
         <li
+            className="relative"
             ref={itemRef}
-            className={showTip ? 'relative' : ''}
             onMouseEnter={() => setShowTip(true)}
             onMouseLeave={() => setShowTip(false)}
         >
+            {showTip && <Tooltip link={baseUrl + link} parentRef={itemRef} />}
+
             <a className="hover:text-cyan-600" href={baseUrl + link}>
                 {link}
             </a>
-
-            {showTip && <Tooltip link={baseUrl + link} parentRef={itemRef} />}
         </li>
     )
 }

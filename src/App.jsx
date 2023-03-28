@@ -1,15 +1,12 @@
 import React from 'react'
-import { QueryClientProvider, QueryClient } from 'react-query'
 import List from './List'
-
-const client = new QueryClient()
 
 const App = () => {
     return (
-        <div className="w-full mb-40 mt-5">
-            <div className="w-11/12 mx-auto">
+        <div className="w-full min-h-screen pb-40 pt-5 light:bg-slate-50 dark:bg-slate-500">
+            <div className="w-11/12 mx-auto h-full">
                 <a
-                    className="flex flex-row content-center text-sm text-gray-600 hover:text-cyan-600 hover:underline mb-4"
+                    className="flex flex-row content-center text-sm light:text-gray-600 dark:text-gray-50 dark:hover:text-cyan-100 light:hover:text-cyan-600 hover:underline mb-4"
                     href="http://laszloekovacs@github.com"
                 >
                     <img
@@ -22,9 +19,7 @@ const App = () => {
                 <h1 className="text-xl text-center font-bold mb-5 ">
                     Tailwind CSS styling checklist
                 </h1>
-                <QueryClientProvider client={client}>
-                    <List />
-                </QueryClientProvider>
+                <List />
             </div>
         </div>
     )

@@ -15,8 +15,8 @@ const Table = ({ link }) => {
     }
 
     return (
-        <div>
-            <table>
+        <div className="text-sm">
+            <table className="table-auto">
                 <thead>
                     <tr>
                         <th>tailwind class</th>
