@@ -6,6 +6,7 @@
 ## how to run
 
 the program is scaffolded with vite, after cloning run
-`npm install`
-`npm dev`
+```
+npm install
+npm dev```
 this will start up a dev server and give you the link. you can also find the live version in the description
