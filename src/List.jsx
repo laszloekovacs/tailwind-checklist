@@ -24,9 +24,8 @@ const List = () => {
         queryFn: getGroupList,
     })
 
-    if (isLoading) return 'Imagine a spinning icon over here...'
-
-    if (error) return 'An error has occurred: ' + error.message
+    if (isLoading) return <p>{'Imagine a spinning icon over here...'}</p>
+    if (error) return <p>{'An error has occurred: ' + error.message}</p>
 
     return (
         <ul className="columns-3xs gap-x-6">
