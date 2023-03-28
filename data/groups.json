@@ -79,11 +79,11 @@
                 "font-weight",
                 "font-variant-numeric",
                 "letter-spacing",
+                "line-clamp",
                 "line-height",
-                "list-style-type",
+                "list-style-image",
                 "list-style-position",
-                "placeholder-color",
-                "placeholder-opacity",
+                "list-style-type",
                 "text-align",
                 "text-color",
                 "text-decoration",
@@ -97,6 +97,7 @@
                 "vertical-align",
                 "whitespace",
                 "word-break",
+                "hyphens",
                 "content"
             ]
         },
@@ -188,7 +189,7 @@
                 "rotate",
                 "translate",
                 "skew",
-                "tansform-origin"
+                "transform-origin"
             ]
         },
         {
