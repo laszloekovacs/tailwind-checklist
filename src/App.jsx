@@ -7,7 +7,7 @@ const App = () => {
             <div className="w-11/12 mx-auto h-full">
                 <a
                     className="flex flex-row content-center text-sm light:text-gray-600 dark:text-gray-50 dark:hover:text-cyan-100 light:hover:text-cyan-600 hover:underline mb-4"
-                    href="http://laszloekovacs@github.com"
+                    href="https://github.com/laszloekovacs"
                 >
                     <img
                         className="w-5 h-5 mr-3"
