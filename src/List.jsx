@@ -1,6 +1,6 @@
 import React from 'react'
 import { useQuery } from 'react-query'
-import Item from './Item'
+import Group from './Group'
 
 /* this points to the manually written data file hosted on github */
 const url =
@@ -31,7 +31,7 @@ const List = () => {
     return (
         <ul className="columns-3xs">
             {data.groups.map((g) => (
-                <Item key={g.title} group={g} />
+                <Group key={g.title} group={g} />
             ))}
         </ul>
     )

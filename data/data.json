@@ -1,7 +1,7 @@
 {
     "groups": [
         {
-            "title": "layout",
+            "title": "Layout",
             "content": [
                 "aspect-ratio",
                 "container",
@@ -26,7 +26,7 @@
             ]
         },
         {
-            "title": "flexbox and grid",
+            "title": "Flexbox and Grid",
             "content": [
                 "flex-basis",
                 "flex-direction",
@@ -55,11 +55,11 @@
             ]
         },
         {
-            "title": "spacing",
+            "title": "Spacing",
             "content": ["padding", "margin", "space"]
         },
         {
-            "title": "sizing",
+            "title": "Sizing",
             "content": [
                 "width",
                 "min-width",
@@ -70,7 +70,7 @@
             ]
         },
         {
-            "title": "typography",
+            "title": "Typography",
             "content": [
                 "font-family",
                 "font-size",
@@ -101,7 +101,7 @@
             ]
         },
         {
-            "title": "backgrounds",
+            "title": "Backgrounds",
             "content": [
                 "background-attachment",
                 "background-clip",
@@ -115,7 +115,7 @@
             ]
         },
         {
-            "title": "borders",
+            "title": "Borders",
             "content": [
                 "border-radius",
                 "border-width",
@@ -135,7 +135,7 @@
             ]
         },
         {
-            "title": "effects",
+            "title": "Effects",
             "content": [
                 "box-shadow",
                 "box-shadow-color",
@@ -145,7 +145,7 @@
             ]
         },
         {
-            "title": "filters",
+            "title": "Filters",
             "content": [
                 "blur",
                 "brightness",
@@ -168,11 +168,11 @@
             ]
         },
         {
-            "title": "tables",
+            "title": "Tables",
             "content": ["border-collapse", "border-spacing", "table-layout"]
         },
         {
-            "title": "transitions",
+            "title": "Transitions",
             "content": [
                 "transition-property",
                 "transition-duration",
@@ -182,7 +182,7 @@
             ]
         },
         {
-            "title": "transforms",
+            "title": "Transforms",
             "content": [
                 "scale",
                 "rotate",
@@ -192,7 +192,7 @@
             ]
         },
         {
-            "title": "interactivity",
+            "title": "Interactivity",
             "content": [
                 "accent-color",
                 "appearance",
@@ -212,11 +212,11 @@
             ]
         },
         {
-            "title": "svg",
+            "title": "SVG",
             "content": ["fill", "stroke", "stroke-width"]
         },
         {
-            "title": "accessibility",
+            "title": "Accessibility",
             "content": ["screen-readers"]
         }
     ]
