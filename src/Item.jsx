@@ -1,23 +1,28 @@
 import React from 'react'
+import Tooltip from './Tooltip'
 
 const baseUrl = 'http://tailwindcss.com/docs/'
 
-const Item = ({ link }) => {
-    const [showPopup, setShowPopup] = React.useState(false)
+/*
+renders individual links. decides whether to show the tooltip or not.
+*/
 
-    const handleMouseEnter = (link) => {
-        //setShowPopup(true)
-        console.log(link)
-    }
-    const handleMouseLeave = () => {
-        //setShowPopup(false)
-    }
+const Item = ({ link }) => {
+    const [showTip, setShowTip] = React.useState(false)
+    const itemRef = React.useRef(null)
 
     return (
-        <li>
+        <li
+            ref={itemRef}
+            className={showTip ? 'relative' : ''}
+            onMouseEnter={() => setShowTip(true)}
+            onMouseLeave={() => setShowTip(false)}
+        >
             <a className="hover:text-cyan-600" href={baseUrl + link}>
                 {link}
             </a>
+
+            {showTip && <Tooltip link={link} parentRef={itemRef} />}
         </li>
     )
 }
