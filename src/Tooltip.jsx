@@ -20,7 +20,7 @@ const Tooltip = ({ link, parentRef }) => {
         ? '-top-32 text-green-900'
         : 'top-6 text-orange-900'
 
-    const styling = `absolute z-2 ${xpos} ${ypos} w-32 h-32`
+    const styling = `absolute z-2 ${xpos} ${ypos} w-32 h-32 p-2`
 
     return <div className={styling}>{link}</div>
 }
