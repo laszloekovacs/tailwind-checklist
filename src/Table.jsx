@@ -12,32 +12,10 @@ import { storeString, loadString } from './localstorage'
 const Table = ({ link }) => {
     const { error, data, isLoading } = useQuery(link, async () => {
         try {
-            if (!link) throw new Error('no link')
-
-            /* check local storage */
-            let text = loadString(link)
-            if (text) return text
-
-            /* load from server */
-
-            const res = await fetch(link)
-
-            if (!res.ok) throw new Error('no response')
-
-            text = await res.text()
-
-            /* remove junk */
-            const data = extractTable(text)
-
-            /* store in local storage */
-            storeString(link, data)
-
-            return data
+            return 'done loading for now'
         } catch (e) {
             console.log(e)
         }
-
-        return data
     })
 
     if (isLoading) return <p>loading...</p>
