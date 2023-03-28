@@ -14,7 +14,7 @@ async function main() {
         const datajson = JSON.parse(file)
 
         /* for testing trim the data not to overload servers */
-        datajson.groups = datajson.groups.slice(0, 1)
+        //datajson.groups = datajson.groups.slice(0, 1)
         //datajson.groups[0].content = datajson.groups[0].content.slice(0, 1)
 
         let tooltips = {}

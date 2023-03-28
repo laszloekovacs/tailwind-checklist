@@ -6,7 +6,8 @@ import tooltips from '../data/tooltips.json'
     shows the table scraped from the website.
 */
 const Table = ({ link }) => {
-    console.log(link)
+    if (!tooltips.hasOwnProperty(link)) return <div>no data</div>
+
     const tableRows = tooltips[link]
 
     if (!tableRows) {
