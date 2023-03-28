@@ -4,9 +4,9 @@ import Group from './Group'
 
 /* this points to the manually written data file hosted on github */
 const url =
-    'https://raw.githubusercontent.com/laszloekovacs/tailwind-checklist/master/data/data.json'
+    'https://raw.githubusercontent.com/laszloekovacs/tailwind-checklist/master/data/groups.json'
 
-/* fetch the data.json from the repo directly */
+/* fetch the groups.json from the repo directly */
 /** @type {import('../global').getGroupList} */
 const getGroupList = async () => {
     const response = await fetch(url)
