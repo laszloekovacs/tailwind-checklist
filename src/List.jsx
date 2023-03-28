@@ -29,7 +29,7 @@ const List = () => {
     if (error) return 'An error has occurred: ' + error.message
 
     return (
-        <ul className="columns-3xs">
+        <ul className="columns-3xs gap-x-6">
             {data.groups.map((g) => (
                 <Group key={g.title} group={g} />
             ))}

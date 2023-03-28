@@ -22,7 +22,7 @@ const Item = ({ link }) => {
                 {link}
             </a>
 
-            {showTip && <Tooltip link={link} parentRef={itemRef} />}
+            {showTip && <Tooltip link={baseUrl + link} parentRef={itemRef} />}
         </li>
     )
 }

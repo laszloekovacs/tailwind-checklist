@@ -1,4 +1,5 @@
 import React from 'react'
+import Table from './Table'
 
 /*
     the tooltip container only cares about his own positioning.
@@ -15,14 +16,16 @@ const Tooltip = ({ link, parentRef }) => {
     const isParentOnTop = parentRect.bottom > window.innerHeight / 2
 
     /* if the parent is on the left side */
-    const xpos = isParentOnLeft ? '-left-32 bg-red-200' : 'left-16 bg-blue-200'
-    const ypos = isParentOnTop
-        ? '-top-32 text-green-900'
-        : 'top-6 text-orange-900'
+    const xpos = isParentOnLeft ? '-left-44' : 'left-16'
+    const ypos = isParentOnTop ? '-bottom-0' : '-top-0'
 
-    const styling = `absolute z-2 ${xpos} ${ypos} w-32 h-32 p-2`
+    const styling = `bg-blue-300 overflow-hidden absolute z-2 w-44 max-h-lg p-2 border-2 border-black rounded ${xpos} ${ypos}`
 
-    return <div className={styling}>{link}</div>
+    return (
+        <div className={styling}>
+            <div id="tooltipContent">{link}</div>
+        </div>
+    )
 }
 
 export default Tooltip
