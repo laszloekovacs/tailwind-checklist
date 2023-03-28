@@ -1,7 +1,7 @@
 import React from 'react'
 import Tooltip from './Tooltip'
 
-const baseUrl = 'http://tailwindcss.com/docs/'
+const baseUrl = 'https://tailwindcss.com/docs/'
 
 /*
 renders individual links. decides whether to show the tooltip or not.

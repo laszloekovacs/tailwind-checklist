@@ -1,8 +1,5 @@
 import React from 'react'
-import Tooltip from './Tooltip'
 import Item from './Item'
-
-const base = 'https://tailwindcss.com/docs/'
 
 /* renders a "chapter".
  */

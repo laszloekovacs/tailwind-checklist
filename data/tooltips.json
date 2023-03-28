@@ -1,2218 +1,2158 @@
-[
-    {
-        "name": "aspect-ratio",
-        "rows": [
-            {
-                "tw": "aspect-auto",
-                "css": "aspect-ratio: auto;\n"
-            },
-            {
-                "tw": "aspect-square",
-                "css": "aspect-ratio: 1 / 1;\n"
-            },
-            {
-                "tw": "aspect-video",
-                "css": "aspect-ratio: 16 / 9;\n"
-            }
+{
+    "https://tailwindcss.com/docs/aspect-ratio": [
+        [
+            "aspect-auto",
+            "aspect-ratio: auto;\n"
+        ],
+        [
+            "aspect-square",
+            "aspect-ratio: 1 / 1;\n"
+        ],
+        [
+            "aspect-video",
+            "aspect-ratio: 16 / 9;\n"
         ]
-    },
-    {
-        "name": "container",
-        "rows": [
-            {
-                "tw": "container",
-                "css": "None"
-            },
-            {
-                "tw": "sm (640px)",
-                "css": "max-width: 640px;"
-            },
-            {
-                "tw": "md (768px)",
-                "css": "max-width: 768px;"
-            },
-            {
-                "tw": "lg (1024px)",
-                "css": "max-width: 1024px;"
-            },
-            {
-                "tw": "xl (1280px)",
-                "css": "max-width: 1280px;"
-            },
-            {
-                "tw": "2xl (1536px)",
-                "css": "max-width: 1536px;"
-            }
+    ],
+    "https://tailwindcss.com/docs/container": [
+        [
+            "container",
+            "None"
+        ],
+        [
+            "sm (640px)",
+            "max-width: 640px;"
+        ],
+        [
+            "md (768px)",
+            "max-width: 768px;"
+        ],
+        [
+            "lg (1024px)",
+            "max-width: 1024px;"
+        ],
+        [
+            "xl (1280px)",
+            "max-width: 1280px;"
+        ],
+        [
+            "2xl (1536px)",
+            "max-width: 1536px;"
         ]
-    },
-    {
-        "name": "columns",
-        "rows": [
-            {
-                "tw": "columns-1",
-                "css": "columns: 1;\n"
-            },
-            {
-                "tw": "columns-2",
-                "css": "columns: 2;\n"
-            },
-            {
-                "tw": "columns-3",
-                "css": "columns: 3;\n"
-            },
-            {
-                "tw": "columns-4",
-                "css": "columns: 4;\n"
-            },
-            {
-                "tw": "columns-5",
-                "css": "columns: 5;\n"
-            },
-            {
-                "tw": "columns-6",
-                "css": "columns: 6;\n"
-            },
-            {
-                "tw": "columns-7",
-                "css": "columns: 7;\n"
-            },
-            {
-                "tw": "columns-8",
-                "css": "columns: 8;\n"
-            },
-            {
-                "tw": "columns-9",
-                "css": "columns: 9;\n"
-            },
-            {
-                "tw": "columns-10",
-                "css": "columns: 10;\n"
-            },
-            {
-                "tw": "columns-11",
-                "css": "columns: 11;\n"
-            },
-            {
-                "tw": "columns-12",
-                "css": "columns: 12;\n"
-            },
-            {
-                "tw": "columns-auto",
-                "css": "columns: auto;\n"
-            },
-            {
-                "tw": "columns-3xs",
-                "css": "columns: 16rem; /* 256px */\n"
-            },
-            {
-                "tw": "columns-2xs",
-                "css": "columns: 18rem; /* 288px */\n"
-            },
-            {
-                "tw": "columns-xs",
-                "css": "columns: 20rem; /* 320px */\n"
-            },
-            {
-                "tw": "columns-sm",
-                "css": "columns: 24rem; /* 384px */\n"
-            },
-            {
-                "tw": "columns-md",
-                "css": "columns: 28rem; /* 448px */\n"
-            },
-            {
-                "tw": "columns-lg",
-                "css": "columns: 32rem; /* 512px */\n"
-            },
-            {
-                "tw": "columns-xl",
-                "css": "columns: 36rem; /* 576px */\n"
-            },
-            {
-                "tw": "columns-2xl",
-                "css": "columns: 42rem; /* 672px */\n"
-            },
-            {
-                "tw": "columns-3xl",
-                "css": "columns: 48rem; /* 768px */\n"
-            },
-            {
-                "tw": "columns-4xl",
-                "css": "columns: 56rem; /* 896px */\n"
-            },
-            {
-                "tw": "columns-5xl",
-                "css": "columns: 64rem; /* 1024px */\n"
-            },
-            {
-                "tw": "columns-6xl",
-                "css": "columns: 72rem; /* 1152px */\n"
-            },
-            {
-                "tw": "columns-7xl",
-                "css": "columns: 80rem; /* 1280px */\n"
-            }
+    ],
+    "https://tailwindcss.com/docs/columns": [
+        [
+            "columns-1",
+            "columns: 1;\n"
+        ],
+        [
+            "columns-2",
+            "columns: 2;\n"
+        ],
+        [
+            "columns-3",
+            "columns: 3;\n"
+        ],
+        [
+            "columns-4",
+            "columns: 4;\n"
+        ],
+        [
+            "columns-5",
+            "columns: 5;\n"
+        ],
+        [
+            "columns-6",
+            "columns: 6;\n"
+        ],
+        [
+            "columns-7",
+            "columns: 7;\n"
+        ],
+        [
+            "columns-8",
+            "columns: 8;\n"
+        ],
+        [
+            "columns-9",
+            "columns: 9;\n"
+        ],
+        [
+            "columns-10",
+            "columns: 10;\n"
+        ],
+        [
+            "columns-11",
+            "columns: 11;\n"
+        ],
+        [
+            "columns-12",
+            "columns: 12;\n"
+        ],
+        [
+            "columns-auto",
+            "columns: auto;\n"
+        ],
+        [
+            "columns-3xs",
+            "columns: 16rem; /* 256px */\n"
+        ],
+        [
+            "columns-2xs",
+            "columns: 18rem; /* 288px */\n"
+        ],
+        [
+            "columns-xs",
+            "columns: 20rem; /* 320px */\n"
+        ],
+        [
+            "columns-sm",
+            "columns: 24rem; /* 384px */\n"
+        ],
+        [
+            "columns-md",
+            "columns: 28rem; /* 448px */\n"
+        ],
+        [
+            "columns-lg",
+            "columns: 32rem; /* 512px */\n"
+        ],
+        [
+            "columns-xl",
+            "columns: 36rem; /* 576px */\n"
+        ],
+        [
+            "columns-2xl",
+            "columns: 42rem; /* 672px */\n"
+        ],
+        [
+            "columns-3xl",
+            "columns: 48rem; /* 768px */\n"
+        ],
+        [
+            "columns-4xl",
+            "columns: 56rem; /* 896px */\n"
+        ],
+        [
+            "columns-5xl",
+            "columns: 64rem; /* 1024px */\n"
+        ],
+        [
+            "columns-6xl",
+            "columns: 72rem; /* 1152px */\n"
+        ],
+        [
+            "columns-7xl",
+            "columns: 80rem; /* 1280px */\n"
         ]
-    },
-    {
-        "name": "break-after",
-        "rows": [
-            {
-                "tw": "break-after-auto",
-                "css": "break-after: auto;\n"
-            },
-            {
-                "tw": "break-after-avoid",
-                "css": "break-after: avoid;\n"
-            },
-            {
-                "tw": "break-after-all",
-                "css": "break-after: all;\n"
-            },
-            {
-                "tw": "break-after-avoid-page",
-                "css": "break-after: avoid-page;\n"
-            },
-            {
-                "tw": "break-after-page",
-                "css": "break-after: page;\n"
-            },
-            {
-                "tw": "break-after-left",
-                "css": "break-after: left;\n"
-            },
-            {
-                "tw": "break-after-right",
-                "css": "break-after: right;\n"
-            },
-            {
-                "tw": "break-after-column",
-                "css": "break-after: column;\n"
-            }
+    ],
+    "https://tailwindcss.com/docs/break-after": [
+        [
+            "break-after-auto",
+            "break-after: auto;\n"
+        ],
+        [
+            "break-after-avoid",
+            "break-after: avoid;\n"
+        ],
+        [
+            "break-after-all",
+            "break-after: all;\n"
+        ],
+        [
+            "break-after-avoid-page",
+            "break-after: avoid-page;\n"
+        ],
+        [
+            "break-after-page",
+            "break-after: page;\n"
+        ],
+        [
+            "break-after-left",
+            "break-after: left;\n"
+        ],
+        [
+            "break-after-right",
+            "break-after: right;\n"
+        ],
+        [
+            "break-after-column",
+            "break-after: column;\n"
         ]
-    },
-    {
-        "name": "break-before",
-        "rows": [
-            {
-                "tw": "break-before-auto",
-                "css": "break-before: auto;\n"
-            },
-            {
-                "tw": "break-before-avoid",
-                "css": "break-before: avoid;\n"
-            },
-            {
-                "tw": "break-before-all",
-                "css": "break-before: all;\n"
-            },
-            {
-                "tw": "break-before-avoid-page",
-                "css": "break-before: avoid-page;\n"
-            },
-            {
-                "tw": "break-before-page",
-                "css": "break-before: page;\n"
-            },
-            {
-                "tw": "break-before-left",
-                "css": "break-before: left;\n"
-            },
-            {
-                "tw": "break-before-right",
-                "css": "break-before: right;\n"
-            },
-            {
-                "tw": "break-before-column",
-                "css": "break-before: column;\n"
-            }
+    ],
+    "https://tailwindcss.com/docs/break-before": [
+        [
+            "break-before-auto",
+            "break-before: auto;\n"
+        ],
+        [
+            "break-before-avoid",
+            "break-before: avoid;\n"
+        ],
+        [
+            "break-before-all",
+            "break-before: all;\n"
+        ],
+        [
+            "break-before-avoid-page",
+            "break-before: avoid-page;\n"
+        ],
+        [
+            "break-before-page",
+            "break-before: page;\n"
+        ],
+        [
+            "break-before-left",
+            "break-before: left;\n"
+        ],
+        [
+            "break-before-right",
+            "break-before: right;\n"
+        ],
+        [
+            "break-before-column",
+            "break-before: column;\n"
         ]
-    },
-    {
-        "name": "break-inside",
-        "rows": [
-            {
-                "tw": "break-inside-auto",
-                "css": "break-inside: auto;\n"
-            },
-            {
-                "tw": "break-inside-avoid",
-                "css": "break-inside: avoid;\n"
-            },
-            {
-                "tw": "break-inside-avoid-page",
-                "css": "break-inside: avoid-page;\n"
-            },
-            {
-                "tw": "break-inside-avoid-column",
-                "css": "break-inside: avoid-column;\n"
-            }
+    ],
+    "https://tailwindcss.com/docs/break-inside": [
+        [
+            "break-inside-auto",
+            "break-inside: auto;\n"
+        ],
+        [
+            "break-inside-avoid",
+            "break-inside: avoid;\n"
+        ],
+        [
+            "break-inside-avoid-page",
+            "break-inside: avoid-page;\n"
+        ],
+        [
+            "break-inside-avoid-column",
+            "break-inside: avoid-column;\n"
         ]
-    },
-    {
-        "name": "box-decoration-break",
-        "rows": [
-            {
-                "tw": "box-decoration-clone",
-                "css": "box-decoration-break: clone;\n"
-            },
-            {
-                "tw": "box-decoration-slice",
-                "css": "box-decoration-break: slice;\n"
-            }
+    ],
+    "https://tailwindcss.com/docs/box-decoration-break": [
+        [
+            "box-decoration-clone",
+            "box-decoration-break: clone;\n"
+        ],
+        [
+            "box-decoration-slice",
+            "box-decoration-break: slice;\n"
         ]
-    },
-    {
-        "name": "box-sizing",
-        "rows": [
-            {
-                "tw": "box-border",
-                "css": "box-sizing: border-box;\n"
-            },
-            {
-                "tw": "box-content",
-                "css": "box-sizing: content-box;\n"
-            }
+    ],
+    "https://tailwindcss.com/docs/box-sizing": [
+        [
+            "box-border",
+            "box-sizing: border-box;\n"
+        ],
+        [
+            "box-content",
+            "box-sizing: content-box;\n"
         ]
-    },
-    {
-        "name": "display",
-        "rows": [
-            {
-                "tw": "block",
-                "css": "display: block;\n"
-            },
-            {
-                "tw": "inline-block",
-                "css": "display: inline-block;\n"
-            },
-            {
-                "tw": "inline",
-                "css": "display: inline;\n"
-            },
-            {
-                "tw": "flex",
-                "css": "display: flex;\n"
-            },
-            {
-                "tw": "inline-flex",
-                "css": "display: inline-flex;\n"
-            },
-            {
-                "tw": "table",
-                "css": "display: table;\n"
-            },
-            {
-                "tw": "inline-table",
-                "css": "display: inline-table;\n"
-            },
-            {
-                "tw": "table-caption",
-                "css": "display: table-caption;\n"
-            },
-            {
-                "tw": "table-cell",
-                "css": "display: table-cell;\n"
-            },
-            {
-                "tw": "table-column",
-                "css": "display: table-column;\n"
-            },
-            {
-                "tw": "table-column-group",
-                "css": "display: table-column-group;\n"
-            },
-            {
-                "tw": "table-footer-group",
-                "css": "display: table-footer-group;\n"
-            },
-            {
-                "tw": "table-header-group",
-                "css": "display: table-header-group;\n"
-            },
-            {
-                "tw": "table-row-group",
-                "css": "display: table-row-group;\n"
-            },
-            {
-                "tw": "table-row",
-                "css": "display: table-row;\n"
-            },
-            {
-                "tw": "flow-root",
-                "css": "display: flow-root;\n"
-            },
-            {
-                "tw": "grid",
-                "css": "display: grid;\n"
-            },
-            {
-                "tw": "inline-grid",
-                "css": "display: inline-grid;\n"
-            },
-            {
-                "tw": "contents",
-                "css": "display: contents;\n"
-            },
-            {
-                "tw": "list-item",
-                "css": "display: list-item;\n"
-            },
-            {
-                "tw": "hidden",
-                "css": "display: none;\n"
-            }
+    ],
+    "https://tailwindcss.com/docs/display": [
+        [
+            "block",
+            "display: block;\n"
+        ],
+        [
+            "inline-block",
+            "display: inline-block;\n"
+        ],
+        [
+            "inline",
+            "display: inline;\n"
+        ],
+        [
+            "flex",
+            "display: flex;\n"
+        ],
+        [
+            "inline-flex",
+            "display: inline-flex;\n"
+        ],
+        [
+            "table",
+            "display: table;\n"
+        ],
+        [
+            "inline-table",
+            "display: inline-table;\n"
+        ],
+        [
+            "table-caption",
+            "display: table-caption;\n"
+        ],
+        [
+            "table-cell",
+            "display: table-cell;\n"
+        ],
+        [
+            "table-column",
+            "display: table-column;\n"
+        ],
+        [
+            "table-column-group",
+            "display: table-column-group;\n"
+        ],
+        [
+            "table-footer-group",
+            "display: table-footer-group;\n"
+        ],
+        [
+            "table-header-group",
+            "display: table-header-group;\n"
+        ],
+        [
+            "table-row-group",
+            "display: table-row-group;\n"
+        ],
+        [
+            "table-row",
+            "display: table-row;\n"
+        ],
+        [
+            "flow-root",
+            "display: flow-root;\n"
+        ],
+        [
+            "grid",
+            "display: grid;\n"
+        ],
+        [
+            "inline-grid",
+            "display: inline-grid;\n"
+        ],
+        [
+            "contents",
+            "display: contents;\n"
+        ],
+        [
+            "list-item",
+            "display: list-item;\n"
+        ],
+        [
+            "hidden",
+            "display: none;\n"
         ]
-    },
-    {
-        "name": "float",
-        "rows": [
-            {
-                "tw": "float-right",
-                "css": "float: right;\n"
-            },
-            {
-                "tw": "float-left",
-                "css": "float: left;\n"
-            },
-            {
-                "tw": "float-none",
-                "css": "float: none;\n"
-            }
+    ],
+    "https://tailwindcss.com/docs/float": [
+        [
+            "float-right",
+            "float: right;\n"
+        ],
+        [
+            "float-left",
+            "float: left;\n"
+        ],
+        [
+            "float-none",
+            "float: none;\n"
         ]
-    },
-    {
-        "name": "clear",
-        "rows": [
-            {
-                "tw": "clear-left",
-                "css": "clear: left;\n"
-            },
-            {
-                "tw": "clear-right",
-                "css": "clear: right;\n"
-            },
-            {
-                "tw": "clear-both",
-                "css": "clear: both;\n"
-            },
-            {
-                "tw": "clear-none",
-                "css": "clear: none;\n"
-            }
+    ],
+    "https://tailwindcss.com/docs/clear": [
+        [
+            "clear-left",
+            "clear: left;\n"
+        ],
+        [
+            "clear-right",
+            "clear: right;\n"
+        ],
+        [
+            "clear-both",
+            "clear: both;\n"
+        ],
+        [
+            "clear-none",
+            "clear: none;\n"
         ]
-    },
-    {
-        "name": "isolation",
-        "rows": [
-            {
-                "tw": "isolate",
-                "css": "isolation: isolate;\n"
-            },
-            {
-                "tw": "isolation-auto",
-                "css": "isolation: auto;\n"
-            }
+    ],
+    "https://tailwindcss.com/docs/isolation": [
+        [
+            "isolate",
+            "isolation: isolate;\n"
+        ],
+        [
+            "isolation-auto",
+            "isolation: auto;\n"
         ]
-    },
-    {
-        "name": "object-fit",
-        "rows": [
-            {
-                "tw": "object-contain",
-                "css": "object-fit: contain;\n"
-            },
-            {
-                "tw": "object-cover",
-                "css": "object-fit: cover;\n"
-            },
-            {
-                "tw": "object-fill",
-                "css": "object-fit: fill;\n"
-            },
-            {
-                "tw": "object-none",
-                "css": "object-fit: none;\n"
-            },
-            {
-                "tw": "object-scale-down",
-                "css": "object-fit: scale-down;\n"
-            }
+    ],
+    "https://tailwindcss.com/docs/object-fit": [
+        [
+            "object-contain",
+            "object-fit: contain;\n"
+        ],
+        [
+            "object-cover",
+            "object-fit: cover;\n"
+        ],
+        [
+            "object-fill",
+            "object-fit: fill;\n"
+        ],
+        [
+            "object-none",
+            "object-fit: none;\n"
+        ],
+        [
+            "object-scale-down",
+            "object-fit: scale-down;\n"
         ]
-    },
-    {
-        "name": "object-position",
-        "rows": [
-            {
-                "tw": "object-bottom",
-                "css": "object-position: bottom;\n"
-            },
-            {
-                "tw": "object-center",
-                "css": "object-position: center;\n"
-            },
-            {
-                "tw": "object-left",
-                "css": "object-position: left;\n"
-            },
-            {
-                "tw": "object-left-bottom",
-                "css": "object-position: left bottom;\n"
-            },
-            {
-                "tw": "object-left-top",
-                "css": "object-position: left top;\n"
-            },
-            {
-                "tw": "object-right",
-                "css": "object-position: right;\n"
-            },
-            {
-                "tw": "object-right-bottom",
-                "css": "object-position: right bottom;\n"
-            },
-            {
-                "tw": "object-right-top",
-                "css": "object-position: right top;\n"
-            },
-            {
-                "tw": "object-top",
-                "css": "object-position: top;\n"
-            }
+    ],
+    "https://tailwindcss.com/docs/object-position": [
+        [
+            "object-bottom",
+            "object-position: bottom;\n"
+        ],
+        [
+            "object-center",
+            "object-position: center;\n"
+        ],
+        [
+            "object-left",
+            "object-position: left;\n"
+        ],
+        [
+            "object-left-bottom",
+            "object-position: left bottom;\n"
+        ],
+        [
+            "object-left-top",
+            "object-position: left top;\n"
+        ],
+        [
+            "object-right",
+            "object-position: right;\n"
+        ],
+        [
+            "object-right-bottom",
+            "object-position: right bottom;\n"
+        ],
+        [
+            "object-right-top",
+            "object-position: right top;\n"
+        ],
+        [
+            "object-top",
+            "object-position: top;\n"
         ]
-    },
-    {
-        "name": "overflow",
-        "rows": [
-            {
-                "tw": "overflow-auto",
-                "css": "overflow: auto;\n"
-            },
-            {
-                "tw": "overflow-hidden",
-                "css": "overflow: hidden;\n"
-            },
-            {
-                "tw": "overflow-clip",
-                "css": "overflow: clip;\n"
-            },
-            {
-                "tw": "overflow-visible",
-                "css": "overflow: visible;\n"
-            },
-            {
-                "tw": "overflow-scroll",
-                "css": "overflow: scroll;\n"
-            },
-            {
-                "tw": "overflow-x-auto",
-                "css": "overflow-x: auto;\n"
-            },
-            {
-                "tw": "overflow-y-auto",
-                "css": "overflow-y: auto;\n"
-            },
-            {
-                "tw": "overflow-x-hidden",
-                "css": "overflow-x: hidden;\n"
-            },
-            {
-                "tw": "overflow-y-hidden",
-                "css": "overflow-y: hidden;\n"
-            },
-            {
-                "tw": "overflow-x-clip",
-                "css": "overflow-x: clip;\n"
-            },
-            {
-                "tw": "overflow-y-clip",
-                "css": "overflow-y: clip;\n"
-            },
-            {
-                "tw": "overflow-x-visible",
-                "css": "overflow-x: visible;\n"
-            },
-            {
-                "tw": "overflow-y-visible",
-                "css": "overflow-y: visible;\n"
-            },
-            {
-                "tw": "overflow-x-scroll",
-                "css": "overflow-x: scroll;\n"
-            },
-            {
-                "tw": "overflow-y-scroll",
-                "css": "overflow-y: scroll;\n"
-            }
+    ],
+    "https://tailwindcss.com/docs/overflow": [
+        [
+            "overflow-auto",
+            "overflow: auto;\n"
+        ],
+        [
+            "overflow-hidden",
+            "overflow: hidden;\n"
+        ],
+        [
+            "overflow-clip",
+            "overflow: clip;\n"
+        ],
+        [
+            "overflow-visible",
+            "overflow: visible;\n"
+        ],
+        [
+            "overflow-scroll",
+            "overflow: scroll;\n"
+        ],
+        [
+            "overflow-x-auto",
+            "overflow-x: auto;\n"
+        ],
+        [
+            "overflow-y-auto",
+            "overflow-y: auto;\n"
+        ],
+        [
+            "overflow-x-hidden",
+            "overflow-x: hidden;\n"
+        ],
+        [
+            "overflow-y-hidden",
+            "overflow-y: hidden;\n"
+        ],
+        [
+            "overflow-x-clip",
+            "overflow-x: clip;\n"
+        ],
+        [
+            "overflow-y-clip",
+            "overflow-y: clip;\n"
+        ],
+        [
+            "overflow-x-visible",
+            "overflow-x: visible;\n"
+        ],
+        [
+            "overflow-y-visible",
+            "overflow-y: visible;\n"
+        ],
+        [
+            "overflow-x-scroll",
+            "overflow-x: scroll;\n"
+        ],
+        [
+            "overflow-y-scroll",
+            "overflow-y: scroll;\n"
         ]
-    },
-    {
-        "name": "overscroll-behavior",
-        "rows": [
-            {
-                "tw": "overscroll-auto",
-                "css": "overscroll-behavior: auto;\n"
-            },
-            {
-                "tw": "overscroll-contain",
-                "css": "overscroll-behavior: contain;\n"
-            },
-            {
-                "tw": "overscroll-none",
-                "css": "overscroll-behavior: none;\n"
-            },
-            {
-                "tw": "overscroll-y-auto",
-                "css": "overscroll-behavior-y: auto;\n"
-            },
-            {
-                "tw": "overscroll-y-contain",
-                "css": "overscroll-behavior-y: contain;\n"
-            },
-            {
-                "tw": "overscroll-y-none",
-                "css": "overscroll-behavior-y: none;\n"
-            },
-            {
-                "tw": "overscroll-x-auto",
-                "css": "overscroll-behavior-x: auto;\n"
-            },
-            {
-                "tw": "overscroll-x-contain",
-                "css": "overscroll-behavior-x: contain;\n"
-            },
-            {
-                "tw": "overscroll-x-none",
-                "css": "overscroll-behavior-x: none;\n"
-            }
+    ],
+    "https://tailwindcss.com/docs/overscroll-behavior": [
+        [
+            "overscroll-auto",
+            "overscroll-behavior: auto;\n"
+        ],
+        [
+            "overscroll-contain",
+            "overscroll-behavior: contain;\n"
+        ],
+        [
+            "overscroll-none",
+            "overscroll-behavior: none;\n"
+        ],
+        [
+            "overscroll-y-auto",
+            "overscroll-behavior-y: auto;\n"
+        ],
+        [
+            "overscroll-y-contain",
+            "overscroll-behavior-y: contain;\n"
+        ],
+        [
+            "overscroll-y-none",
+            "overscroll-behavior-y: none;\n"
+        ],
+        [
+            "overscroll-x-auto",
+            "overscroll-behavior-x: auto;\n"
+        ],
+        [
+            "overscroll-x-contain",
+            "overscroll-behavior-x: contain;\n"
+        ],
+        [
+            "overscroll-x-none",
+            "overscroll-behavior-x: none;\n"
         ]
-    },
-    {
-        "name": "position",
-        "rows": [
-            {
-                "tw": "static",
-                "css": "position: static;\n"
-            },
-            {
-                "tw": "fixed",
-                "css": "position: fixed;\n"
-            },
-            {
-                "tw": "absolute",
-                "css": "position: absolute;\n"
-            },
-            {
-                "tw": "relative",
-                "css": "position: relative;\n"
-            },
-            {
-                "tw": "sticky",
-                "css": "position: sticky;\n"
-            }
+    ],
+    "https://tailwindcss.com/docs/position": [
+        [
+            "static",
+            "position: static;\n"
+        ],
+        [
+            "fixed",
+            "position: fixed;\n"
+        ],
+        [
+            "absolute",
+            "position: absolute;\n"
+        ],
+        [
+            "relative",
+            "position: relative;\n"
+        ],
+        [
+            "sticky",
+            "position: sticky;\n"
         ]
-    },
-    {
-        "name": "top-right-bottom-left",
-        "rows": [
-            {
-                "tw": "inset-0",
-                "css": "inset: 0px;\n"
-            },
-            {
-                "tw": "inset-x-0",
-                "css": "left: 0px;\nright: 0px;\n"
-            },
-            {
-                "tw": "inset-y-0",
-                "css": "top: 0px;\nbottom: 0px;\n"
-            },
-            {
-                "tw": "start-0",
-                "css": "inset-inline-start: 0px;\n"
-            },
-            {
-                "tw": "end-0",
-                "css": "inset-inline-end: 0px;\n"
-            },
-            {
-                "tw": "top-0",
-                "css": "top: 0px;\n"
-            },
-            {
-                "tw": "right-0",
-                "css": "right: 0px;\n"
-            },
-            {
-                "tw": "bottom-0",
-                "css": "bottom: 0px;\n"
-            },
-            {
-                "tw": "left-0",
-                "css": "left: 0px;\n"
-            },
-            {
-                "tw": "inset-px",
-                "css": "inset: 1px;\n"
-            },
-            {
-                "tw": "inset-x-px",
-                "css": "left: 1px;\nright: 1px;\n"
-            },
-            {
-                "tw": "inset-y-px",
-                "css": "top: 1px;\nbottom: 1px;\n"
-            },
-            {
-                "tw": "start-px",
-                "css": "inset-inline-start: 1px;\n"
-            },
-            {
-                "tw": "end-px",
-                "css": "inset-inline-end: 1px;\n"
-            },
-            {
-                "tw": "top-px",
-                "css": "top: 1px;\n"
-            },
-            {
-                "tw": "right-px",
-                "css": "right: 1px;\n"
-            },
-            {
-                "tw": "bottom-px",
-                "css": "bottom: 1px;\n"
-            },
-            {
-                "tw": "left-px",
-                "css": "left: 1px;\n"
-            },
-            {
-                "tw": "inset-0.5",
-                "css": "inset: 0.125rem; /* 2px */\n"
-            },
-            {
-                "tw": "inset-x-0.5",
-                "css": "left: 0.125rem; /* 2px */\nright: 0.125rem; /* 2px */\n"
-            },
-            {
-                "tw": "inset-y-0.5",
-                "css": "top: 0.125rem; /* 2px */\nbottom: 0.125rem; /* 2px */\n"
-            },
-            {
-                "tw": "start-0.5",
-                "css": "inset-inline-start: 0.125rem; /* 2px */\n"
-            },
-            {
-                "tw": "end-0.5",
-                "css": "inset-inline-end: 0.125rem; /* 2px */\n"
-            },
-            {
-                "tw": "top-0.5",
-                "css": "top: 0.125rem; /* 2px */\n"
-            },
-            {
-                "tw": "right-0.5",
-                "css": "right: 0.125rem; /* 2px */\n"
-            },
-            {
-                "tw": "bottom-0.5",
-                "css": "bottom: 0.125rem; /* 2px */\n"
-            },
-            {
-                "tw": "left-0.5",
-                "css": "left: 0.125rem; /* 2px */\n"
-            },
-            {
-                "tw": "inset-1",
-                "css": "inset: 0.25rem; /* 4px */\n"
-            },
-            {
-                "tw": "inset-x-1",
-                "css": "left: 0.25rem; /* 4px */\nright: 0.25rem; /* 4px */\n"
-            },
-            {
-                "tw": "inset-y-1",
-                "css": "top: 0.25rem; /* 4px */\nbottom: 0.25rem; /* 4px */\n"
-            },
-            {
-                "tw": "start-1",
-                "css": "inset-inline-start: 0.25rem; /* 4px */\n"
-            },
-            {
-                "tw": "end-1",
-                "css": "inset-inline-end: 0.25rem; /* 4px */\n"
-            },
-            {
-                "tw": "top-1",
-                "css": "top: 0.25rem; /* 4px */\n"
-            },
-            {
-                "tw": "right-1",
-                "css": "right: 0.25rem; /* 4px */\n"
-            },
-            {
-                "tw": "bottom-1",
-                "css": "bottom: 0.25rem; /* 4px */\n"
-            },
-            {
-                "tw": "left-1",
-                "css": "left: 0.25rem; /* 4px */\n"
-            },
-            {
-                "tw": "inset-1.5",
-                "css": "inset: 0.375rem; /* 6px */\n"
-            },
-            {
-                "tw": "inset-x-1.5",
-                "css": "left: 0.375rem; /* 6px */\nright: 0.375rem; /* 6px */\n"
-            },
-            {
-                "tw": "inset-y-1.5",
-                "css": "top: 0.375rem; /* 6px */\nbottom: 0.375rem; /* 6px */\n"
-            },
-            {
-                "tw": "start-1.5",
-                "css": "inset-inline-start: 0.375rem; /* 6px */\n"
-            },
-            {
-                "tw": "end-1.5",
-                "css": "inset-inline-end: 0.375rem; /* 6px */\n"
-            },
-            {
-                "tw": "top-1.5",
-                "css": "top: 0.375rem; /* 6px */\n"
-            },
-            {
-                "tw": "right-1.5",
-                "css": "right: 0.375rem; /* 6px */\n"
-            },
-            {
-                "tw": "bottom-1.5",
-                "css": "bottom: 0.375rem; /* 6px */\n"
-            },
-            {
-                "tw": "left-1.5",
-                "css": "left: 0.375rem; /* 6px */\n"
-            },
-            {
-                "tw": "inset-2",
-                "css": "inset: 0.5rem; /* 8px */\n"
-            },
-            {
-                "tw": "inset-x-2",
-                "css": "left: 0.5rem; /* 8px */\nright: 0.5rem; /* 8px */\n"
-            },
-            {
-                "tw": "inset-y-2",
-                "css": "top: 0.5rem; /* 8px */\nbottom: 0.5rem; /* 8px */\n"
-            },
-            {
-                "tw": "start-2",
-                "css": "inset-inline-start: 0.5rem; /* 8px */\n"
-            },
-            {
-                "tw": "end-2",
-                "css": "inset-inline-end: 0.5rem; /* 8px */\n"
-            },
-            {
-                "tw": "top-2",
-                "css": "top: 0.5rem; /* 8px */\n"
-            },
-            {
-                "tw": "right-2",
-                "css": "right: 0.5rem; /* 8px */\n"
-            },
-            {
-                "tw": "bottom-2",
-                "css": "bottom: 0.5rem; /* 8px */\n"
-            },
-            {
-                "tw": "left-2",
-                "css": "left: 0.5rem; /* 8px */\n"
-            },
-            {
-                "tw": "inset-2.5",
-                "css": "inset: 0.625rem; /* 10px */\n"
-            },
-            {
-                "tw": "inset-x-2.5",
-                "css": "left: 0.625rem; /* 10px */\nright: 0.625rem; /* 10px */\n"
-            },
-            {
-                "tw": "inset-y-2.5",
-                "css": "top: 0.625rem; /* 10px */\nbottom: 0.625rem; /* 10px */\n"
-            },
-            {
-                "tw": "start-2.5",
-                "css": "inset-inline-start: 0.625rem; /* 10px */\n"
-            },
-            {
-                "tw": "end-2.5",
-                "css": "inset-inline-end: 0.625rem; /* 10px */\n"
-            },
-            {
-                "tw": "top-2.5",
-                "css": "top: 0.625rem; /* 10px */\n"
-            },
-            {
-                "tw": "right-2.5",
-                "css": "right: 0.625rem; /* 10px */\n"
-            },
-            {
-                "tw": "bottom-2.5",
-                "css": "bottom: 0.625rem; /* 10px */\n"
-            },
-            {
-                "tw": "left-2.5",
-                "css": "left: 0.625rem; /* 10px */\n"
-            },
-            {
-                "tw": "inset-3",
-                "css": "inset: 0.75rem; /* 12px */\n"
-            },
-            {
-                "tw": "inset-x-3",
-                "css": "left: 0.75rem; /* 12px */\nright: 0.75rem; /* 12px */\n"
-            },
-            {
-                "tw": "inset-y-3",
-                "css": "top: 0.75rem; /* 12px */\nbottom: 0.75rem; /* 12px */\n"
-            },
-            {
-                "tw": "start-3",
-                "css": "inset-inline-start: 0.75rem; /* 12px */\n"
-            },
-            {
-                "tw": "end-3",
-                "css": "inset-inline-end: 0.75rem; /* 12px */\n"
-            },
-            {
-                "tw": "top-3",
-                "css": "top: 0.75rem; /* 12px */\n"
-            },
-            {
-                "tw": "right-3",
-                "css": "right: 0.75rem; /* 12px */\n"
-            },
-            {
-                "tw": "bottom-3",
-                "css": "bottom: 0.75rem; /* 12px */\n"
-            },
-            {
-                "tw": "left-3",
-                "css": "left: 0.75rem; /* 12px */\n"
-            },
-            {
-                "tw": "inset-3.5",
-                "css": "inset: 0.875rem; /* 14px */\n"
-            },
-            {
-                "tw": "inset-x-3.5",
-                "css": "left: 0.875rem; /* 14px */\nright: 0.875rem; /* 14px */\n"
-            },
-            {
-                "tw": "inset-y-3.5",
-                "css": "top: 0.875rem; /* 14px */\nbottom: 0.875rem; /* 14px */\n"
-            },
-            {
-                "tw": "start-3.5",
-                "css": "inset-inline-start: 0.875rem; /* 14px */\n"
-            },
-            {
-                "tw": "end-3.5",
-                "css": "inset-inline-end: 0.875rem; /* 14px */\n"
-            },
-            {
-                "tw": "top-3.5",
-                "css": "top: 0.875rem; /* 14px */\n"
-            },
-            {
-                "tw": "right-3.5",
-                "css": "right: 0.875rem; /* 14px */\n"
-            },
-            {
-                "tw": "bottom-3.5",
-                "css": "bottom: 0.875rem; /* 14px */\n"
-            },
-            {
-                "tw": "left-3.5",
-                "css": "left: 0.875rem; /* 14px */\n"
-            },
-            {
-                "tw": "inset-4",
-                "css": "inset: 1rem; /* 16px */\n"
-            },
-            {
-                "tw": "inset-x-4",
-                "css": "left: 1rem; /* 16px */\nright: 1rem; /* 16px */\n"
-            },
-            {
-                "tw": "inset-y-4",
-                "css": "top: 1rem; /* 16px */\nbottom: 1rem; /* 16px */\n"
-            },
-            {
-                "tw": "start-4",
-                "css": "inset-inline-start: 1rem; /* 16px */\n"
-            },
-            {
-                "tw": "end-4",
-                "css": "inset-inline-end: 1rem; /* 16px */\n"
-            },
-            {
-                "tw": "top-4",
-                "css": "top: 1rem; /* 16px */\n"
-            },
-            {
-                "tw": "right-4",
-                "css": "right: 1rem; /* 16px */\n"
-            },
-            {
-                "tw": "bottom-4",
-                "css": "bottom: 1rem; /* 16px */\n"
-            },
-            {
-                "tw": "left-4",
-                "css": "left: 1rem; /* 16px */\n"
-            },
-            {
-                "tw": "inset-5",
-                "css": "inset: 1.25rem; /* 20px */\n"
-            },
-            {
-                "tw": "inset-x-5",
-                "css": "left: 1.25rem; /* 20px */\nright: 1.25rem; /* 20px */\n"
-            },
-            {
-                "tw": "inset-y-5",
-                "css": "top: 1.25rem; /* 20px */\nbottom: 1.25rem; /* 20px */\n"
-            },
-            {
-                "tw": "start-5",
-                "css": "inset-inline-start: 1.25rem; /* 20px */\n"
-            },
-            {
-                "tw": "end-5",
-                "css": "inset-inline-end: 1.25rem; /* 20px */\n"
-            },
-            {
-                "tw": "top-5",
-                "css": "top: 1.25rem; /* 20px */\n"
-            },
-            {
-                "tw": "right-5",
-                "css": "right: 1.25rem; /* 20px */\n"
-            },
-            {
-                "tw": "bottom-5",
-                "css": "bottom: 1.25rem; /* 20px */\n"
-            },
-            {
-                "tw": "left-5",
-                "css": "left: 1.25rem; /* 20px */\n"
-            },
-            {
-                "tw": "inset-6",
-                "css": "inset: 1.5rem; /* 24px */\n"
-            },
-            {
-                "tw": "inset-x-6",
-                "css": "left: 1.5rem; /* 24px */\nright: 1.5rem; /* 24px */\n"
-            },
-            {
-                "tw": "inset-y-6",
-                "css": "top: 1.5rem; /* 24px */\nbottom: 1.5rem; /* 24px */\n"
-            },
-            {
-                "tw": "start-6",
-                "css": "inset-inline-start: 1.5rem; /* 24px */\n"
-            },
-            {
-                "tw": "end-6",
-                "css": "inset-inline-end: 1.5rem; /* 24px */\n"
-            },
-            {
-                "tw": "top-6",
-                "css": "top: 1.5rem; /* 24px */\n"
-            },
-            {
-                "tw": "right-6",
-                "css": "right: 1.5rem; /* 24px */\n"
-            },
-            {
-                "tw": "bottom-6",
-                "css": "bottom: 1.5rem; /* 24px */\n"
-            },
-            {
-                "tw": "left-6",
-                "css": "left: 1.5rem; /* 24px */\n"
-            },
-            {
-                "tw": "inset-7",
-                "css": "inset: 1.75rem; /* 28px */\n"
-            },
-            {
-                "tw": "inset-x-7",
-                "css": "left: 1.75rem; /* 28px */\nright: 1.75rem; /* 28px */\n"
-            },
-            {
-                "tw": "inset-y-7",
-                "css": "top: 1.75rem; /* 28px */\nbottom: 1.75rem; /* 28px */\n"
-            },
-            {
-                "tw": "start-7",
-                "css": "inset-inline-start: 1.75rem; /* 28px */\n"
-            },
-            {
-                "tw": "end-7",
-                "css": "inset-inline-end: 1.75rem; /* 28px */\n"
-            },
-            {
-                "tw": "top-7",
-                "css": "top: 1.75rem; /* 28px */\n"
-            },
-            {
-                "tw": "right-7",
-                "css": "right: 1.75rem; /* 28px */\n"
-            },
-            {
-                "tw": "bottom-7",
-                "css": "bottom: 1.75rem; /* 28px */\n"
-            },
-            {
-                "tw": "left-7",
-                "css": "left: 1.75rem; /* 28px */\n"
-            },
-            {
-                "tw": "inset-8",
-                "css": "inset: 2rem; /* 32px */\n"
-            },
-            {
-                "tw": "inset-x-8",
-                "css": "left: 2rem; /* 32px */\nright: 2rem; /* 32px */\n"
-            },
-            {
-                "tw": "inset-y-8",
-                "css": "top: 2rem; /* 32px */\nbottom: 2rem; /* 32px */\n"
-            },
-            {
-                "tw": "start-8",
-                "css": "inset-inline-start: 2rem; /* 32px */\n"
-            },
-            {
-                "tw": "end-8",
-                "css": "inset-inline-end: 2rem; /* 32px */\n"
-            },
-            {
-                "tw": "top-8",
-                "css": "top: 2rem; /* 32px */\n"
-            },
-            {
-                "tw": "right-8",
-                "css": "right: 2rem; /* 32px */\n"
-            },
-            {
-                "tw": "bottom-8",
-                "css": "bottom: 2rem; /* 32px */\n"
-            },
-            {
-                "tw": "left-8",
-                "css": "left: 2rem; /* 32px */\n"
-            },
-            {
-                "tw": "inset-9",
-                "css": "inset: 2.25rem; /* 36px */\n"
-            },
-            {
-                "tw": "inset-x-9",
-                "css": "left: 2.25rem; /* 36px */\nright: 2.25rem; /* 36px */\n"
-            },
-            {
-                "tw": "inset-y-9",
-                "css": "top: 2.25rem; /* 36px */\nbottom: 2.25rem; /* 36px */\n"
-            },
-            {
-                "tw": "start-9",
-                "css": "inset-inline-start: 2.25rem; /* 36px */\n"
-            },
-            {
-                "tw": "end-9",
-                "css": "inset-inline-end: 2.25rem; /* 36px */\n"
-            },
-            {
-                "tw": "top-9",
-                "css": "top: 2.25rem; /* 36px */\n"
-            },
-            {
-                "tw": "right-9",
-                "css": "right: 2.25rem; /* 36px */\n"
-            },
-            {
-                "tw": "bottom-9",
-                "css": "bottom: 2.25rem; /* 36px */\n"
-            },
-            {
-                "tw": "left-9",
-                "css": "left: 2.25rem; /* 36px */\n"
-            },
-            {
-                "tw": "inset-10",
-                "css": "inset: 2.5rem; /* 40px */\n"
-            },
-            {
-                "tw": "inset-x-10",
-                "css": "left: 2.5rem; /* 40px */\nright: 2.5rem; /* 40px */\n"
-            },
-            {
-                "tw": "inset-y-10",
-                "css": "top: 2.5rem; /* 40px */\nbottom: 2.5rem; /* 40px */\n"
-            },
-            {
-                "tw": "start-10",
-                "css": "inset-inline-start: 2.5rem; /* 40px */\n"
-            },
-            {
-                "tw": "end-10",
-                "css": "inset-inline-end: 2.5rem; /* 40px */\n"
-            },
-            {
-                "tw": "top-10",
-                "css": "top: 2.5rem; /* 40px */\n"
-            },
-            {
-                "tw": "right-10",
-                "css": "right: 2.5rem; /* 40px */\n"
-            },
-            {
-                "tw": "bottom-10",
-                "css": "bottom: 2.5rem; /* 40px */\n"
-            },
-            {
-                "tw": "left-10",
-                "css": "left: 2.5rem; /* 40px */\n"
-            },
-            {
-                "tw": "inset-11",
-                "css": "inset: 2.75rem; /* 44px */\n"
-            },
-            {
-                "tw": "inset-x-11",
-                "css": "left: 2.75rem; /* 44px */\nright: 2.75rem; /* 44px */\n"
-            },
-            {
-                "tw": "inset-y-11",
-                "css": "top: 2.75rem; /* 44px */\nbottom: 2.75rem; /* 44px */\n"
-            },
-            {
-                "tw": "start-11",
-                "css": "inset-inline-start: 2.75rem; /* 44px */\n"
-            },
-            {
-                "tw": "end-11",
-                "css": "inset-inline-end: 2.75rem; /* 44px */\n"
-            },
-            {
-                "tw": "top-11",
-                "css": "top: 2.75rem; /* 44px */\n"
-            },
-            {
-                "tw": "right-11",
-                "css": "right: 2.75rem; /* 44px */\n"
-            },
-            {
-                "tw": "bottom-11",
-                "css": "bottom: 2.75rem; /* 44px */\n"
-            },
-            {
-                "tw": "left-11",
-                "css": "left: 2.75rem; /* 44px */\n"
-            },
-            {
-                "tw": "inset-12",
-                "css": "inset: 3rem; /* 48px */\n"
-            },
-            {
-                "tw": "inset-x-12",
-                "css": "left: 3rem; /* 48px */\nright: 3rem; /* 48px */\n"
-            },
-            {
-                "tw": "inset-y-12",
-                "css": "top: 3rem; /* 48px */\nbottom: 3rem; /* 48px */\n"
-            },
-            {
-                "tw": "start-12",
-                "css": "inset-inline-start: 3rem; /* 48px */\n"
-            },
-            {
-                "tw": "end-12",
-                "css": "inset-inline-end: 3rem; /* 48px */\n"
-            },
-            {
-                "tw": "top-12",
-                "css": "top: 3rem; /* 48px */\n"
-            },
-            {
-                "tw": "right-12",
-                "css": "right: 3rem; /* 48px */\n"
-            },
-            {
-                "tw": "bottom-12",
-                "css": "bottom: 3rem; /* 48px */\n"
-            },
-            {
-                "tw": "left-12",
-                "css": "left: 3rem; /* 48px */\n"
-            },
-            {
-                "tw": "inset-14",
-                "css": "inset: 3.5rem; /* 56px */\n"
-            },
-            {
-                "tw": "inset-x-14",
-                "css": "left: 3.5rem; /* 56px */\nright: 3.5rem; /* 56px */\n"
-            },
-            {
-                "tw": "inset-y-14",
-                "css": "top: 3.5rem; /* 56px */\nbottom: 3.5rem; /* 56px */\n"
-            },
-            {
-                "tw": "start-14",
-                "css": "inset-inline-start: 3.5rem; /* 56px */\n"
-            },
-            {
-                "tw": "end-14",
-                "css": "inset-inline-end: 3.5rem; /* 56px */\n"
-            },
-            {
-                "tw": "top-14",
-                "css": "top: 3.5rem; /* 56px */\n"
-            },
-            {
-                "tw": "right-14",
-                "css": "right: 3.5rem; /* 56px */\n"
-            },
-            {
-                "tw": "bottom-14",
-                "css": "bottom: 3.5rem; /* 56px */\n"
-            },
-            {
-                "tw": "left-14",
-                "css": "left: 3.5rem; /* 56px */\n"
-            },
-            {
-                "tw": "inset-16",
-                "css": "inset: 4rem; /* 64px */\n"
-            },
-            {
-                "tw": "inset-x-16",
-                "css": "left: 4rem; /* 64px */\nright: 4rem; /* 64px */\n"
-            },
-            {
-                "tw": "inset-y-16",
-                "css": "top: 4rem; /* 64px */\nbottom: 4rem; /* 64px */\n"
-            },
-            {
-                "tw": "start-16",
-                "css": "inset-inline-start: 4rem; /* 64px */\n"
-            },
-            {
-                "tw": "end-16",
-                "css": "inset-inline-end: 4rem; /* 64px */\n"
-            },
-            {
-                "tw": "top-16",
-                "css": "top: 4rem; /* 64px */\n"
-            },
-            {
-                "tw": "right-16",
-                "css": "right: 4rem; /* 64px */\n"
-            },
-            {
-                "tw": "bottom-16",
-                "css": "bottom: 4rem; /* 64px */\n"
-            },
-            {
-                "tw": "left-16",
-                "css": "left: 4rem; /* 64px */\n"
-            },
-            {
-                "tw": "inset-20",
-                "css": "inset: 5rem; /* 80px */\n"
-            },
-            {
-                "tw": "inset-x-20",
-                "css": "left: 5rem; /* 80px */\nright: 5rem; /* 80px */\n"
-            },
-            {
-                "tw": "inset-y-20",
-                "css": "top: 5rem; /* 80px */\nbottom: 5rem; /* 80px */\n"
-            },
-            {
-                "tw": "start-20",
-                "css": "inset-inline-start: 5rem; /* 80px */\n"
-            },
-            {
-                "tw": "end-20",
-                "css": "inset-inline-end: 5rem; /* 80px */\n"
-            },
-            {
-                "tw": "top-20",
-                "css": "top: 5rem; /* 80px */\n"
-            },
-            {
-                "tw": "right-20",
-                "css": "right: 5rem; /* 80px */\n"
-            },
-            {
-                "tw": "bottom-20",
-                "css": "bottom: 5rem; /* 80px */\n"
-            },
-            {
-                "tw": "left-20",
-                "css": "left: 5rem; /* 80px */\n"
-            },
-            {
-                "tw": "inset-24",
-                "css": "inset: 6rem; /* 96px */\n"
-            },
-            {
-                "tw": "inset-x-24",
-                "css": "left: 6rem; /* 96px */\nright: 6rem; /* 96px */\n"
-            },
-            {
-                "tw": "inset-y-24",
-                "css": "top: 6rem; /* 96px */\nbottom: 6rem; /* 96px */\n"
-            },
-            {
-                "tw": "start-24",
-                "css": "inset-inline-start: 6rem; /* 96px */\n"
-            },
-            {
-                "tw": "end-24",
-                "css": "inset-inline-end: 6rem; /* 96px */\n"
-            },
-            {
-                "tw": "top-24",
-                "css": "top: 6rem; /* 96px */\n"
-            },
-            {
-                "tw": "right-24",
-                "css": "right: 6rem; /* 96px */\n"
-            },
-            {
-                "tw": "bottom-24",
-                "css": "bottom: 6rem; /* 96px */\n"
-            },
-            {
-                "tw": "left-24",
-                "css": "left: 6rem; /* 96px */\n"
-            },
-            {
-                "tw": "inset-28",
-                "css": "inset: 7rem; /* 112px */\n"
-            },
-            {
-                "tw": "inset-x-28",
-                "css": "left: 7rem; /* 112px */\nright: 7rem; /* 112px */\n"
-            },
-            {
-                "tw": "inset-y-28",
-                "css": "top: 7rem; /* 112px */\nbottom: 7rem; /* 112px */\n"
-            },
-            {
-                "tw": "start-28",
-                "css": "inset-inline-start: 7rem; /* 112px */\n"
-            },
-            {
-                "tw": "end-28",
-                "css": "inset-inline-end: 7rem; /* 112px */\n"
-            },
-            {
-                "tw": "top-28",
-                "css": "top: 7rem; /* 112px */\n"
-            },
-            {
-                "tw": "right-28",
-                "css": "right: 7rem; /* 112px */\n"
-            },
-            {
-                "tw": "bottom-28",
-                "css": "bottom: 7rem; /* 112px */\n"
-            },
-            {
-                "tw": "left-28",
-                "css": "left: 7rem; /* 112px */\n"
-            },
-            {
-                "tw": "inset-32",
-                "css": "inset: 8rem; /* 128px */\n"
-            },
-            {
-                "tw": "inset-x-32",
-                "css": "left: 8rem; /* 128px */\nright: 8rem; /* 128px */\n"
-            },
-            {
-                "tw": "inset-y-32",
-                "css": "top: 8rem; /* 128px */\nbottom: 8rem; /* 128px */\n"
-            },
-            {
-                "tw": "start-32",
-                "css": "inset-inline-start: 8rem; /* 128px */\n"
-            },
-            {
-                "tw": "end-32",
-                "css": "inset-inline-end: 8rem; /* 128px */\n"
-            },
-            {
-                "tw": "top-32",
-                "css": "top: 8rem; /* 128px */\n"
-            },
-            {
-                "tw": "right-32",
-                "css": "right: 8rem; /* 128px */\n"
-            },
-            {
-                "tw": "bottom-32",
-                "css": "bottom: 8rem; /* 128px */\n"
-            },
-            {
-                "tw": "left-32",
-                "css": "left: 8rem; /* 128px */\n"
-            },
-            {
-                "tw": "inset-36",
-                "css": "inset: 9rem; /* 144px */\n"
-            },
-            {
-                "tw": "inset-x-36",
-                "css": "left: 9rem; /* 144px */\nright: 9rem; /* 144px */\n"
-            },
-            {
-                "tw": "inset-y-36",
-                "css": "top: 9rem; /* 144px */\nbottom: 9rem; /* 144px */\n"
-            },
-            {
-                "tw": "start-36",
-                "css": "inset-inline-start: 9rem; /* 144px */\n"
-            },
-            {
-                "tw": "end-36",
-                "css": "inset-inline-end: 9rem; /* 144px */\n"
-            },
-            {
-                "tw": "top-36",
-                "css": "top: 9rem; /* 144px */\n"
-            },
-            {
-                "tw": "right-36",
-                "css": "right: 9rem; /* 144px */\n"
-            },
-            {
-                "tw": "bottom-36",
-                "css": "bottom: 9rem; /* 144px */\n"
-            },
-            {
-                "tw": "left-36",
-                "css": "left: 9rem; /* 144px */\n"
-            },
-            {
-                "tw": "inset-40",
-                "css": "inset: 10rem; /* 160px */\n"
-            },
-            {
-                "tw": "inset-x-40",
-                "css": "left: 10rem; /* 160px */\nright: 10rem; /* 160px */\n"
-            },
-            {
-                "tw": "inset-y-40",
-                "css": "top: 10rem; /* 160px */\nbottom: 10rem; /* 160px */\n"
-            },
-            {
-                "tw": "start-40",
-                "css": "inset-inline-start: 10rem; /* 160px */\n"
-            },
-            {
-                "tw": "end-40",
-                "css": "inset-inline-end: 10rem; /* 160px */\n"
-            },
-            {
-                "tw": "top-40",
-                "css": "top: 10rem; /* 160px */\n"
-            },
-            {
-                "tw": "right-40",
-                "css": "right: 10rem; /* 160px */\n"
-            },
-            {
-                "tw": "bottom-40",
-                "css": "bottom: 10rem; /* 160px */\n"
-            },
-            {
-                "tw": "left-40",
-                "css": "left: 10rem; /* 160px */\n"
-            },
-            {
-                "tw": "inset-44",
-                "css": "inset: 11rem; /* 176px */\n"
-            },
-            {
-                "tw": "inset-x-44",
-                "css": "left: 11rem; /* 176px */\nright: 11rem; /* 176px */\n"
-            },
-            {
-                "tw": "inset-y-44",
-                "css": "top: 11rem; /* 176px */\nbottom: 11rem; /* 176px */\n"
-            },
-            {
-                "tw": "start-44",
-                "css": "inset-inline-start: 11rem; /* 176px */\n"
-            },
-            {
-                "tw": "end-44",
-                "css": "inset-inline-end: 11rem; /* 176px */\n"
-            },
-            {
-                "tw": "top-44",
-                "css": "top: 11rem; /* 176px */\n"
-            },
-            {
-                "tw": "right-44",
-                "css": "right: 11rem; /* 176px */\n"
-            },
-            {
-                "tw": "bottom-44",
-                "css": "bottom: 11rem; /* 176px */\n"
-            },
-            {
-                "tw": "left-44",
-                "css": "left: 11rem; /* 176px */\n"
-            },
-            {
-                "tw": "inset-48",
-                "css": "inset: 12rem; /* 192px */\n"
-            },
-            {
-                "tw": "inset-x-48",
-                "css": "left: 12rem; /* 192px */\nright: 12rem; /* 192px */\n"
-            },
-            {
-                "tw": "inset-y-48",
-                "css": "top: 12rem; /* 192px */\nbottom: 12rem; /* 192px */\n"
-            },
-            {
-                "tw": "start-48",
-                "css": "inset-inline-start: 12rem; /* 192px */\n"
-            },
-            {
-                "tw": "end-48",
-                "css": "inset-inline-end: 12rem; /* 192px */\n"
-            },
-            {
-                "tw": "top-48",
-                "css": "top: 12rem; /* 192px */\n"
-            },
-            {
-                "tw": "right-48",
-                "css": "right: 12rem; /* 192px */\n"
-            },
-            {
-                "tw": "bottom-48",
-                "css": "bottom: 12rem; /* 192px */\n"
-            },
-            {
-                "tw": "left-48",
-                "css": "left: 12rem; /* 192px */\n"
-            },
-            {
-                "tw": "inset-52",
-                "css": "inset: 13rem; /* 208px */\n"
-            },
-            {
-                "tw": "inset-x-52",
-                "css": "left: 13rem; /* 208px */\nright: 13rem; /* 208px */\n"
-            },
-            {
-                "tw": "inset-y-52",
-                "css": "top: 13rem; /* 208px */\nbottom: 13rem; /* 208px */\n"
-            },
-            {
-                "tw": "start-52",
-                "css": "inset-inline-start: 13rem; /* 208px */\n"
-            },
-            {
-                "tw": "end-52",
-                "css": "inset-inline-end: 13rem; /* 208px */\n"
-            },
-            {
-                "tw": "top-52",
-                "css": "top: 13rem; /* 208px */\n"
-            },
-            {
-                "tw": "right-52",
-                "css": "right: 13rem; /* 208px */\n"
-            },
-            {
-                "tw": "bottom-52",
-                "css": "bottom: 13rem; /* 208px */\n"
-            },
-            {
-                "tw": "left-52",
-                "css": "left: 13rem; /* 208px */\n"
-            },
-            {
-                "tw": "inset-56",
-                "css": "inset: 14rem; /* 224px */\n"
-            },
-            {
-                "tw": "inset-x-56",
-                "css": "left: 14rem; /* 224px */\nright: 14rem; /* 224px */\n"
-            },
-            {
-                "tw": "inset-y-56",
-                "css": "top: 14rem; /* 224px */\nbottom: 14rem; /* 224px */\n"
-            },
-            {
-                "tw": "start-56",
-                "css": "inset-inline-start: 14rem; /* 224px */\n"
-            },
-            {
-                "tw": "end-56",
-                "css": "inset-inline-end: 14rem; /* 224px */\n"
-            },
-            {
-                "tw": "top-56",
-                "css": "top: 14rem; /* 224px */\n"
-            },
-            {
-                "tw": "right-56",
-                "css": "right: 14rem; /* 224px */\n"
-            },
-            {
-                "tw": "bottom-56",
-                "css": "bottom: 14rem; /* 224px */\n"
-            },
-            {
-                "tw": "left-56",
-                "css": "left: 14rem; /* 224px */\n"
-            },
-            {
-                "tw": "inset-60",
-                "css": "inset: 15rem; /* 240px */\n"
-            },
-            {
-                "tw": "inset-x-60",
-                "css": "left: 15rem; /* 240px */\nright: 15rem; /* 240px */\n"
-            },
-            {
-                "tw": "inset-y-60",
-                "css": "top: 15rem; /* 240px */\nbottom: 15rem; /* 240px */\n"
-            },
-            {
-                "tw": "start-60",
-                "css": "inset-inline-start: 15rem; /* 240px */\n"
-            },
-            {
-                "tw": "end-60",
-                "css": "inset-inline-end: 15rem; /* 240px */\n"
-            },
-            {
-                "tw": "top-60",
-                "css": "top: 15rem; /* 240px */\n"
-            },
-            {
-                "tw": "right-60",
-                "css": "right: 15rem; /* 240px */\n"
-            },
-            {
-                "tw": "bottom-60",
-                "css": "bottom: 15rem; /* 240px */\n"
-            },
-            {
-                "tw": "left-60",
-                "css": "left: 15rem; /* 240px */\n"
-            },
-            {
-                "tw": "inset-64",
-                "css": "inset: 16rem; /* 256px */\n"
-            },
-            {
-                "tw": "inset-x-64",
-                "css": "left: 16rem; /* 256px */\nright: 16rem; /* 256px */\n"
-            },
-            {
-                "tw": "inset-y-64",
-                "css": "top: 16rem; /* 256px */\nbottom: 16rem; /* 256px */\n"
-            },
-            {
-                "tw": "start-64",
-                "css": "inset-inline-start: 16rem; /* 256px */\n"
-            },
-            {
-                "tw": "end-64",
-                "css": "inset-inline-end: 16rem; /* 256px */\n"
-            },
-            {
-                "tw": "top-64",
-                "css": "top: 16rem; /* 256px */\n"
-            },
-            {
-                "tw": "right-64",
-                "css": "right: 16rem; /* 256px */\n"
-            },
-            {
-                "tw": "bottom-64",
-                "css": "bottom: 16rem; /* 256px */\n"
-            },
-            {
-                "tw": "left-64",
-                "css": "left: 16rem; /* 256px */\n"
-            },
-            {
-                "tw": "inset-72",
-                "css": "inset: 18rem; /* 288px */\n"
-            },
-            {
-                "tw": "inset-x-72",
-                "css": "left: 18rem; /* 288px */\nright: 18rem; /* 288px */\n"
-            },
-            {
-                "tw": "inset-y-72",
-                "css": "top: 18rem; /* 288px */\nbottom: 18rem; /* 288px */\n"
-            },
-            {
-                "tw": "start-72",
-                "css": "inset-inline-start: 18rem; /* 288px */\n"
-            },
-            {
-                "tw": "end-72",
-                "css": "inset-inline-end: 18rem; /* 288px */\n"
-            },
-            {
-                "tw": "top-72",
-                "css": "top: 18rem; /* 288px */\n"
-            },
-            {
-                "tw": "right-72",
-                "css": "right: 18rem; /* 288px */\n"
-            },
-            {
-                "tw": "bottom-72",
-                "css": "bottom: 18rem; /* 288px */\n"
-            },
-            {
-                "tw": "left-72",
-                "css": "left: 18rem; /* 288px */\n"
-            },
-            {
-                "tw": "inset-80",
-                "css": "inset: 20rem; /* 320px */\n"
-            },
-            {
-                "tw": "inset-x-80",
-                "css": "left: 20rem; /* 320px */\nright: 20rem; /* 320px */\n"
-            },
-            {
-                "tw": "inset-y-80",
-                "css": "top: 20rem; /* 320px */\nbottom: 20rem; /* 320px */\n"
-            },
-            {
-                "tw": "start-80",
-                "css": "inset-inline-start: 20rem; /* 320px */\n"
-            },
-            {
-                "tw": "end-80",
-                "css": "inset-inline-end: 20rem; /* 320px */\n"
-            },
-            {
-                "tw": "top-80",
-                "css": "top: 20rem; /* 320px */\n"
-            },
-            {
-                "tw": "right-80",
-                "css": "right: 20rem; /* 320px */\n"
-            },
-            {
-                "tw": "bottom-80",
-                "css": "bottom: 20rem; /* 320px */\n"
-            },
-            {
-                "tw": "left-80",
-                "css": "left: 20rem; /* 320px */\n"
-            },
-            {
-                "tw": "inset-96",
-                "css": "inset: 24rem; /* 384px */\n"
-            },
-            {
-                "tw": "inset-x-96",
-                "css": "left: 24rem; /* 384px */\nright: 24rem; /* 384px */\n"
-            },
-            {
-                "tw": "inset-y-96",
-                "css": "top: 24rem; /* 384px */\nbottom: 24rem; /* 384px */\n"
-            },
-            {
-                "tw": "start-96",
-                "css": "inset-inline-start: 24rem; /* 384px */\n"
-            },
-            {
-                "tw": "end-96",
-                "css": "inset-inline-end: 24rem; /* 384px */\n"
-            },
-            {
-                "tw": "top-96",
-                "css": "top: 24rem; /* 384px */\n"
-            },
-            {
-                "tw": "right-96",
-                "css": "right: 24rem; /* 384px */\n"
-            },
-            {
-                "tw": "bottom-96",
-                "css": "bottom: 24rem; /* 384px */\n"
-            },
-            {
-                "tw": "left-96",
-                "css": "left: 24rem; /* 384px */\n"
-            },
-            {
-                "tw": "inset-auto",
-                "css": "inset: auto;\n"
-            },
-            {
-                "tw": "inset-1/2",
-                "css": "inset: 50%;\n"
-            },
-            {
-                "tw": "inset-1/3",
-                "css": "inset: 33.333333%;\n"
-            },
-            {
-                "tw": "inset-2/3",
-                "css": "inset: 66.666667%;\n"
-            },
-            {
-                "tw": "inset-1/4",
-                "css": "inset: 25%;\n"
-            },
-            {
-                "tw": "inset-2/4",
-                "css": "inset: 50%;\n"
-            },
-            {
-                "tw": "inset-3/4",
-                "css": "inset: 75%;\n"
-            },
-            {
-                "tw": "inset-full",
-                "css": "inset: 100%;\n"
-            },
-            {
-                "tw": "inset-x-auto",
-                "css": "left: auto;\nright: auto;\n"
-            },
-            {
-                "tw": "inset-x-1/2",
-                "css": "left: 50%;\nright: 50%;\n"
-            },
-            {
-                "tw": "inset-x-1/3",
-                "css": "left: 33.333333%;\nright: 33.333333%;\n"
-            },
-            {
-                "tw": "inset-x-2/3",
-                "css": "left: 66.666667%;\nright: 66.666667%;\n"
-            },
-            {
-                "tw": "inset-x-1/4",
-                "css": "left: 25%;\nright: 25%;\n"
-            },
-            {
-                "tw": "inset-x-2/4",
-                "css": "left: 50%;\nright: 50%;\n"
-            },
-            {
-                "tw": "inset-x-3/4",
-                "css": "left: 75%;\nright: 75%;\n"
-            },
-            {
-                "tw": "inset-x-full",
-                "css": "left: 100%;\nright: 100%;\n"
-            },
-            {
-                "tw": "inset-y-auto",
-                "css": "top: auto;\nbottom: auto;\n"
-            },
-            {
-                "tw": "inset-y-1/2",
-                "css": "top: 50%;\nbottom: 50%;\n"
-            },
-            {
-                "tw": "inset-y-1/3",
-                "css": "top: 33.333333%;\nbottom: 33.333333%;\n"
-            },
-            {
-                "tw": "inset-y-2/3",
-                "css": "top: 66.666667%;\nbottom: 66.666667%;\n"
-            },
-            {
-                "tw": "inset-y-1/4",
-                "css": "top: 25%;\nbottom: 25%;\n"
-            },
-            {
-                "tw": "inset-y-2/4",
-                "css": "top: 50%;\nbottom: 50%;\n"
-            },
-            {
-                "tw": "inset-y-3/4",
-                "css": "top: 75%;\nbottom: 75%;\n"
-            },
-            {
-                "tw": "inset-y-full",
-                "css": "top: 100%;\nbottom: 100%;\n"
-            },
-            {
-                "tw": "start-auto",
-                "css": "inset-inline-start: auto;\n"
-            },
-            {
-                "tw": "start-1/2",
-                "css": "inset-inline-start: 50%;\n"
-            },
-            {
-                "tw": "start-1/3",
-                "css": "inset-inline-start: 33.333333%;\n"
-            },
-            {
-                "tw": "start-2/3",
-                "css": "inset-inline-start: 66.666667%;\n"
-            },
-            {
-                "tw": "start-1/4",
-                "css": "inset-inline-start: 25%;\n"
-            },
-            {
-                "tw": "start-2/4",
-                "css": "inset-inline-start: 50%;\n"
-            },
-            {
-                "tw": "start-3/4",
-                "css": "inset-inline-start: 75%;\n"
-            },
-            {
-                "tw": "start-full",
-                "css": "inset-inline-start: 100%;\n"
-            },
-            {
-                "tw": "end-auto",
-                "css": "inset-inline-end: auto;\n"
-            },
-            {
-                "tw": "end-1/2",
-                "css": "inset-inline-end: 50%;\n"
-            },
-            {
-                "tw": "end-1/3",
-                "css": "inset-inline-end: 33.333333%;\n"
-            },
-            {
-                "tw": "end-2/3",
-                "css": "inset-inline-end: 66.666667%;\n"
-            },
-            {
-                "tw": "end-1/4",
-                "css": "inset-inline-end: 25%;\n"
-            },
-            {
-                "tw": "end-2/4",
-                "css": "inset-inline-end: 50%;\n"
-            },
-            {
-                "tw": "end-3/4",
-                "css": "inset-inline-end: 75%;\n"
-            },
-            {
-                "tw": "end-full",
-                "css": "inset-inline-end: 100%;\n"
-            },
-            {
-                "tw": "top-auto",
-                "css": "top: auto;\n"
-            },
-            {
-                "tw": "top-1/2",
-                "css": "top: 50%;\n"
-            },
-            {
-                "tw": "top-1/3",
-                "css": "top: 33.333333%;\n"
-            },
-            {
-                "tw": "top-2/3",
-                "css": "top: 66.666667%;\n"
-            },
-            {
-                "tw": "top-1/4",
-                "css": "top: 25%;\n"
-            },
-            {
-                "tw": "top-2/4",
-                "css": "top: 50%;\n"
-            },
-            {
-                "tw": "top-3/4",
-                "css": "top: 75%;\n"
-            },
-            {
-                "tw": "top-full",
-                "css": "top: 100%;\n"
-            },
-            {
-                "tw": "right-auto",
-                "css": "right: auto;\n"
-            },
-            {
-                "tw": "right-1/2",
-                "css": "right: 50%;\n"
-            },
-            {
-                "tw": "right-1/3",
-                "css": "right: 33.333333%;\n"
-            },
-            {
-                "tw": "right-2/3",
-                "css": "right: 66.666667%;\n"
-            },
-            {
-                "tw": "right-1/4",
-                "css": "right: 25%;\n"
-            },
-            {
-                "tw": "right-2/4",
-                "css": "right: 50%;\n"
-            },
-            {
-                "tw": "right-3/4",
-                "css": "right: 75%;\n"
-            },
-            {
-                "tw": "right-full",
-                "css": "right: 100%;\n"
-            },
-            {
-                "tw": "bottom-auto",
-                "css": "bottom: auto;\n"
-            },
-            {
-                "tw": "bottom-1/2",
-                "css": "bottom: 50%;\n"
-            },
-            {
-                "tw": "bottom-1/3",
-                "css": "bottom: 33.333333%;\n"
-            },
-            {
-                "tw": "bottom-2/3",
-                "css": "bottom: 66.666667%;\n"
-            },
-            {
-                "tw": "bottom-1/4",
-                "css": "bottom: 25%;\n"
-            },
-            {
-                "tw": "bottom-2/4",
-                "css": "bottom: 50%;\n"
-            },
-            {
-                "tw": "bottom-3/4",
-                "css": "bottom: 75%;\n"
-            },
-            {
-                "tw": "bottom-full",
-                "css": "bottom: 100%;\n"
-            },
-            {
-                "tw": "left-auto",
-                "css": "left: auto;\n"
-            },
-            {
-                "tw": "left-1/2",
-                "css": "left: 50%;\n"
-            },
-            {
-                "tw": "left-1/3",
-                "css": "left: 33.333333%;\n"
-            },
-            {
-                "tw": "left-2/3",
-                "css": "left: 66.666667%;\n"
-            },
-            {
-                "tw": "left-1/4",
-                "css": "left: 25%;\n"
-            },
-            {
-                "tw": "left-2/4",
-                "css": "left: 50%;\n"
-            },
-            {
-                "tw": "left-3/4",
-                "css": "left: 75%;\n"
-            },
-            {
-                "tw": "left-full",
-                "css": "left: 100%;\n"
-            }
+    ],
+    "https://tailwindcss.com/docs/top-right-bottom-left": [
+        [
+            "inset-0",
+            "inset: 0px;\n"
+        ],
+        [
+            "inset-x-0",
+            "left: 0px;\nright: 0px;\n"
+        ],
+        [
+            "inset-y-0",
+            "top: 0px;\nbottom: 0px;\n"
+        ],
+        [
+            "start-0",
+            "inset-inline-start: 0px;\n"
+        ],
+        [
+            "end-0",
+            "inset-inline-end: 0px;\n"
+        ],
+        [
+            "top-0",
+            "top: 0px;\n"
+        ],
+        [
+            "right-0",
+            "right: 0px;\n"
+        ],
+        [
+            "bottom-0",
+            "bottom: 0px;\n"
+        ],
+        [
+            "left-0",
+            "left: 0px;\n"
+        ],
+        [
+            "inset-px",
+            "inset: 1px;\n"
+        ],
+        [
+            "inset-x-px",
+            "left: 1px;\nright: 1px;\n"
+        ],
+        [
+            "inset-y-px",
+            "top: 1px;\nbottom: 1px;\n"
+        ],
+        [
+            "start-px",
+            "inset-inline-start: 1px;\n"
+        ],
+        [
+            "end-px",
+            "inset-inline-end: 1px;\n"
+        ],
+        [
+            "top-px",
+            "top: 1px;\n"
+        ],
+        [
+            "right-px",
+            "right: 1px;\n"
+        ],
+        [
+            "bottom-px",
+            "bottom: 1px;\n"
+        ],
+        [
+            "left-px",
+            "left: 1px;\n"
+        ],
+        [
+            "inset-0.5",
+            "inset: 0.125rem; /* 2px */\n"
+        ],
+        [
+            "inset-x-0.5",
+            "left: 0.125rem; /* 2px */\nright: 0.125rem; /* 2px */\n"
+        ],
+        [
+            "inset-y-0.5",
+            "top: 0.125rem; /* 2px */\nbottom: 0.125rem; /* 2px */\n"
+        ],
+        [
+            "start-0.5",
+            "inset-inline-start: 0.125rem; /* 2px */\n"
+        ],
+        [
+            "end-0.5",
+            "inset-inline-end: 0.125rem; /* 2px */\n"
+        ],
+        [
+            "top-0.5",
+            "top: 0.125rem; /* 2px */\n"
+        ],
+        [
+            "right-0.5",
+            "right: 0.125rem; /* 2px */\n"
+        ],
+        [
+            "bottom-0.5",
+            "bottom: 0.125rem; /* 2px */\n"
+        ],
+        [
+            "left-0.5",
+            "left: 0.125rem; /* 2px */\n"
+        ],
+        [
+            "inset-1",
+            "inset: 0.25rem; /* 4px */\n"
+        ],
+        [
+            "inset-x-1",
+            "left: 0.25rem; /* 4px */\nright: 0.25rem; /* 4px */\n"
+        ],
+        [
+            "inset-y-1",
+            "top: 0.25rem; /* 4px */\nbottom: 0.25rem; /* 4px */\n"
+        ],
+        [
+            "start-1",
+            "inset-inline-start: 0.25rem; /* 4px */\n"
+        ],
+        [
+            "end-1",
+            "inset-inline-end: 0.25rem; /* 4px */\n"
+        ],
+        [
+            "top-1",
+            "top: 0.25rem; /* 4px */\n"
+        ],
+        [
+            "right-1",
+            "right: 0.25rem; /* 4px */\n"
+        ],
+        [
+            "bottom-1",
+            "bottom: 0.25rem; /* 4px */\n"
+        ],
+        [
+            "left-1",
+            "left: 0.25rem; /* 4px */\n"
+        ],
+        [
+            "inset-1.5",
+            "inset: 0.375rem; /* 6px */\n"
+        ],
+        [
+            "inset-x-1.5",
+            "left: 0.375rem; /* 6px */\nright: 0.375rem; /* 6px */\n"
+        ],
+        [
+            "inset-y-1.5",
+            "top: 0.375rem; /* 6px */\nbottom: 0.375rem; /* 6px */\n"
+        ],
+        [
+            "start-1.5",
+            "inset-inline-start: 0.375rem; /* 6px */\n"
+        ],
+        [
+            "end-1.5",
+            "inset-inline-end: 0.375rem; /* 6px */\n"
+        ],
+        [
+            "top-1.5",
+            "top: 0.375rem; /* 6px */\n"
+        ],
+        [
+            "right-1.5",
+            "right: 0.375rem; /* 6px */\n"
+        ],
+        [
+            "bottom-1.5",
+            "bottom: 0.375rem; /* 6px */\n"
+        ],
+        [
+            "left-1.5",
+            "left: 0.375rem; /* 6px */\n"
+        ],
+        [
+            "inset-2",
+            "inset: 0.5rem; /* 8px */\n"
+        ],
+        [
+            "inset-x-2",
+            "left: 0.5rem; /* 8px */\nright: 0.5rem; /* 8px */\n"
+        ],
+        [
+            "inset-y-2",
+            "top: 0.5rem; /* 8px */\nbottom: 0.5rem; /* 8px */\n"
+        ],
+        [
+            "start-2",
+            "inset-inline-start: 0.5rem; /* 8px */\n"
+        ],
+        [
+            "end-2",
+            "inset-inline-end: 0.5rem; /* 8px */\n"
+        ],
+        [
+            "top-2",
+            "top: 0.5rem; /* 8px */\n"
+        ],
+        [
+            "right-2",
+            "right: 0.5rem; /* 8px */\n"
+        ],
+        [
+            "bottom-2",
+            "bottom: 0.5rem; /* 8px */\n"
+        ],
+        [
+            "left-2",
+            "left: 0.5rem; /* 8px */\n"
+        ],
+        [
+            "inset-2.5",
+            "inset: 0.625rem; /* 10px */\n"
+        ],
+        [
+            "inset-x-2.5",
+            "left: 0.625rem; /* 10px */\nright: 0.625rem; /* 10px */\n"
+        ],
+        [
+            "inset-y-2.5",
+            "top: 0.625rem; /* 10px */\nbottom: 0.625rem; /* 10px */\n"
+        ],
+        [
+            "start-2.5",
+            "inset-inline-start: 0.625rem; /* 10px */\n"
+        ],
+        [
+            "end-2.5",
+            "inset-inline-end: 0.625rem; /* 10px */\n"
+        ],
+        [
+            "top-2.5",
+            "top: 0.625rem; /* 10px */\n"
+        ],
+        [
+            "right-2.5",
+            "right: 0.625rem; /* 10px */\n"
+        ],
+        [
+            "bottom-2.5",
+            "bottom: 0.625rem; /* 10px */\n"
+        ],
+        [
+            "left-2.5",
+            "left: 0.625rem; /* 10px */\n"
+        ],
+        [
+            "inset-3",
+            "inset: 0.75rem; /* 12px */\n"
+        ],
+        [
+            "inset-x-3",
+            "left: 0.75rem; /* 12px */\nright: 0.75rem; /* 12px */\n"
+        ],
+        [
+            "inset-y-3",
+            "top: 0.75rem; /* 12px */\nbottom: 0.75rem; /* 12px */\n"
+        ],
+        [
+            "start-3",
+            "inset-inline-start: 0.75rem; /* 12px */\n"
+        ],
+        [
+            "end-3",
+            "inset-inline-end: 0.75rem; /* 12px */\n"
+        ],
+        [
+            "top-3",
+            "top: 0.75rem; /* 12px */\n"
+        ],
+        [
+            "right-3",
+            "right: 0.75rem; /* 12px */\n"
+        ],
+        [
+            "bottom-3",
+            "bottom: 0.75rem; /* 12px */\n"
+        ],
+        [
+            "left-3",
+            "left: 0.75rem; /* 12px */\n"
+        ],
+        [
+            "inset-3.5",
+            "inset: 0.875rem; /* 14px */\n"
+        ],
+        [
+            "inset-x-3.5",
+            "left: 0.875rem; /* 14px */\nright: 0.875rem; /* 14px */\n"
+        ],
+        [
+            "inset-y-3.5",
+            "top: 0.875rem; /* 14px */\nbottom: 0.875rem; /* 14px */\n"
+        ],
+        [
+            "start-3.5",
+            "inset-inline-start: 0.875rem; /* 14px */\n"
+        ],
+        [
+            "end-3.5",
+            "inset-inline-end: 0.875rem; /* 14px */\n"
+        ],
+        [
+            "top-3.5",
+            "top: 0.875rem; /* 14px */\n"
+        ],
+        [
+            "right-3.5",
+            "right: 0.875rem; /* 14px */\n"
+        ],
+        [
+            "bottom-3.5",
+            "bottom: 0.875rem; /* 14px */\n"
+        ],
+        [
+            "left-3.5",
+            "left: 0.875rem; /* 14px */\n"
+        ],
+        [
+            "inset-4",
+            "inset: 1rem; /* 16px */\n"
+        ],
+        [
+            "inset-x-4",
+            "left: 1rem; /* 16px */\nright: 1rem; /* 16px */\n"
+        ],
+        [
+            "inset-y-4",
+            "top: 1rem; /* 16px */\nbottom: 1rem; /* 16px */\n"
+        ],
+        [
+            "start-4",
+            "inset-inline-start: 1rem; /* 16px */\n"
+        ],
+        [
+            "end-4",
+            "inset-inline-end: 1rem; /* 16px */\n"
+        ],
+        [
+            "top-4",
+            "top: 1rem; /* 16px */\n"
+        ],
+        [
+            "right-4",
+            "right: 1rem; /* 16px */\n"
+        ],
+        [
+            "bottom-4",
+            "bottom: 1rem; /* 16px */\n"
+        ],
+        [
+            "left-4",
+            "left: 1rem; /* 16px */\n"
+        ],
+        [
+            "inset-5",
+            "inset: 1.25rem; /* 20px */\n"
+        ],
+        [
+            "inset-x-5",
+            "left: 1.25rem; /* 20px */\nright: 1.25rem; /* 20px */\n"
+        ],
+        [
+            "inset-y-5",
+            "top: 1.25rem; /* 20px */\nbottom: 1.25rem; /* 20px */\n"
+        ],
+        [
+            "start-5",
+            "inset-inline-start: 1.25rem; /* 20px */\n"
+        ],
+        [
+            "end-5",
+            "inset-inline-end: 1.25rem; /* 20px */\n"
+        ],
+        [
+            "top-5",
+            "top: 1.25rem; /* 20px */\n"
+        ],
+        [
+            "right-5",
+            "right: 1.25rem; /* 20px */\n"
+        ],
+        [
+            "bottom-5",
+            "bottom: 1.25rem; /* 20px */\n"
+        ],
+        [
+            "left-5",
+            "left: 1.25rem; /* 20px */\n"
+        ],
+        [
+            "inset-6",
+            "inset: 1.5rem; /* 24px */\n"
+        ],
+        [
+            "inset-x-6",
+            "left: 1.5rem; /* 24px */\nright: 1.5rem; /* 24px */\n"
+        ],
+        [
+            "inset-y-6",
+            "top: 1.5rem; /* 24px */\nbottom: 1.5rem; /* 24px */\n"
+        ],
+        [
+            "start-6",
+            "inset-inline-start: 1.5rem; /* 24px */\n"
+        ],
+        [
+            "end-6",
+            "inset-inline-end: 1.5rem; /* 24px */\n"
+        ],
+        [
+            "top-6",
+            "top: 1.5rem; /* 24px */\n"
+        ],
+        [
+            "right-6",
+            "right: 1.5rem; /* 24px */\n"
+        ],
+        [
+            "bottom-6",
+            "bottom: 1.5rem; /* 24px */\n"
+        ],
+        [
+            "left-6",
+            "left: 1.5rem; /* 24px */\n"
+        ],
+        [
+            "inset-7",
+            "inset: 1.75rem; /* 28px */\n"
+        ],
+        [
+            "inset-x-7",
+            "left: 1.75rem; /* 28px */\nright: 1.75rem; /* 28px */\n"
+        ],
+        [
+            "inset-y-7",
+            "top: 1.75rem; /* 28px */\nbottom: 1.75rem; /* 28px */\n"
+        ],
+        [
+            "start-7",
+            "inset-inline-start: 1.75rem; /* 28px */\n"
+        ],
+        [
+            "end-7",
+            "inset-inline-end: 1.75rem; /* 28px */\n"
+        ],
+        [
+            "top-7",
+            "top: 1.75rem; /* 28px */\n"
+        ],
+        [
+            "right-7",
+            "right: 1.75rem; /* 28px */\n"
+        ],
+        [
+            "bottom-7",
+            "bottom: 1.75rem; /* 28px */\n"
+        ],
+        [
+            "left-7",
+            "left: 1.75rem; /* 28px */\n"
+        ],
+        [
+            "inset-8",
+            "inset: 2rem; /* 32px */\n"
+        ],
+        [
+            "inset-x-8",
+            "left: 2rem; /* 32px */\nright: 2rem; /* 32px */\n"
+        ],
+        [
+            "inset-y-8",
+            "top: 2rem; /* 32px */\nbottom: 2rem; /* 32px */\n"
+        ],
+        [
+            "start-8",
+            "inset-inline-start: 2rem; /* 32px */\n"
+        ],
+        [
+            "end-8",
+            "inset-inline-end: 2rem; /* 32px */\n"
+        ],
+        [
+            "top-8",
+            "top: 2rem; /* 32px */\n"
+        ],
+        [
+            "right-8",
+            "right: 2rem; /* 32px */\n"
+        ],
+        [
+            "bottom-8",
+            "bottom: 2rem; /* 32px */\n"
+        ],
+        [
+            "left-8",
+            "left: 2rem; /* 32px */\n"
+        ],
+        [
+            "inset-9",
+            "inset: 2.25rem; /* 36px */\n"
+        ],
+        [
+            "inset-x-9",
+            "left: 2.25rem; /* 36px */\nright: 2.25rem; /* 36px */\n"
+        ],
+        [
+            "inset-y-9",
+            "top: 2.25rem; /* 36px */\nbottom: 2.25rem; /* 36px */\n"
+        ],
+        [
+            "start-9",
+            "inset-inline-start: 2.25rem; /* 36px */\n"
+        ],
+        [
+            "end-9",
+            "inset-inline-end: 2.25rem; /* 36px */\n"
+        ],
+        [
+            "top-9",
+            "top: 2.25rem; /* 36px */\n"
+        ],
+        [
+            "right-9",
+            "right: 2.25rem; /* 36px */\n"
+        ],
+        [
+            "bottom-9",
+            "bottom: 2.25rem; /* 36px */\n"
+        ],
+        [
+            "left-9",
+            "left: 2.25rem; /* 36px */\n"
+        ],
+        [
+            "inset-10",
+            "inset: 2.5rem; /* 40px */\n"
+        ],
+        [
+            "inset-x-10",
+            "left: 2.5rem; /* 40px */\nright: 2.5rem; /* 40px */\n"
+        ],
+        [
+            "inset-y-10",
+            "top: 2.5rem; /* 40px */\nbottom: 2.5rem; /* 40px */\n"
+        ],
+        [
+            "start-10",
+            "inset-inline-start: 2.5rem; /* 40px */\n"
+        ],
+        [
+            "end-10",
+            "inset-inline-end: 2.5rem; /* 40px */\n"
+        ],
+        [
+            "top-10",
+            "top: 2.5rem; /* 40px */\n"
+        ],
+        [
+            "right-10",
+            "right: 2.5rem; /* 40px */\n"
+        ],
+        [
+            "bottom-10",
+            "bottom: 2.5rem; /* 40px */\n"
+        ],
+        [
+            "left-10",
+            "left: 2.5rem; /* 40px */\n"
+        ],
+        [
+            "inset-11",
+            "inset: 2.75rem; /* 44px */\n"
+        ],
+        [
+            "inset-x-11",
+            "left: 2.75rem; /* 44px */\nright: 2.75rem; /* 44px */\n"
+        ],
+        [
+            "inset-y-11",
+            "top: 2.75rem; /* 44px */\nbottom: 2.75rem; /* 44px */\n"
+        ],
+        [
+            "start-11",
+            "inset-inline-start: 2.75rem; /* 44px */\n"
+        ],
+        [
+            "end-11",
+            "inset-inline-end: 2.75rem; /* 44px */\n"
+        ],
+        [
+            "top-11",
+            "top: 2.75rem; /* 44px */\n"
+        ],
+        [
+            "right-11",
+            "right: 2.75rem; /* 44px */\n"
+        ],
+        [
+            "bottom-11",
+            "bottom: 2.75rem; /* 44px */\n"
+        ],
+        [
+            "left-11",
+            "left: 2.75rem; /* 44px */\n"
+        ],
+        [
+            "inset-12",
+            "inset: 3rem; /* 48px */\n"
+        ],
+        [
+            "inset-x-12",
+            "left: 3rem; /* 48px */\nright: 3rem; /* 48px */\n"
+        ],
+        [
+            "inset-y-12",
+            "top: 3rem; /* 48px */\nbottom: 3rem; /* 48px */\n"
+        ],
+        [
+            "start-12",
+            "inset-inline-start: 3rem; /* 48px */\n"
+        ],
+        [
+            "end-12",
+            "inset-inline-end: 3rem; /* 48px */\n"
+        ],
+        [
+            "top-12",
+            "top: 3rem; /* 48px */\n"
+        ],
+        [
+            "right-12",
+            "right: 3rem; /* 48px */\n"
+        ],
+        [
+            "bottom-12",
+            "bottom: 3rem; /* 48px */\n"
+        ],
+        [
+            "left-12",
+            "left: 3rem; /* 48px */\n"
+        ],
+        [
+            "inset-14",
+            "inset: 3.5rem; /* 56px */\n"
+        ],
+        [
+            "inset-x-14",
+            "left: 3.5rem; /* 56px */\nright: 3.5rem; /* 56px */\n"
+        ],
+        [
+            "inset-y-14",
+            "top: 3.5rem; /* 56px */\nbottom: 3.5rem; /* 56px */\n"
+        ],
+        [
+            "start-14",
+            "inset-inline-start: 3.5rem; /* 56px */\n"
+        ],
+        [
+            "end-14",
+            "inset-inline-end: 3.5rem; /* 56px */\n"
+        ],
+        [
+            "top-14",
+            "top: 3.5rem; /* 56px */\n"
+        ],
+        [
+            "right-14",
+            "right: 3.5rem; /* 56px */\n"
+        ],
+        [
+            "bottom-14",
+            "bottom: 3.5rem; /* 56px */\n"
+        ],
+        [
+            "left-14",
+            "left: 3.5rem; /* 56px */\n"
+        ],
+        [
+            "inset-16",
+            "inset: 4rem; /* 64px */\n"
+        ],
+        [
+            "inset-x-16",
+            "left: 4rem; /* 64px */\nright: 4rem; /* 64px */\n"
+        ],
+        [
+            "inset-y-16",
+            "top: 4rem; /* 64px */\nbottom: 4rem; /* 64px */\n"
+        ],
+        [
+            "start-16",
+            "inset-inline-start: 4rem; /* 64px */\n"
+        ],
+        [
+            "end-16",
+            "inset-inline-end: 4rem; /* 64px */\n"
+        ],
+        [
+            "top-16",
+            "top: 4rem; /* 64px */\n"
+        ],
+        [
+            "right-16",
+            "right: 4rem; /* 64px */\n"
+        ],
+        [
+            "bottom-16",
+            "bottom: 4rem; /* 64px */\n"
+        ],
+        [
+            "left-16",
+            "left: 4rem; /* 64px */\n"
+        ],
+        [
+            "inset-20",
+            "inset: 5rem; /* 80px */\n"
+        ],
+        [
+            "inset-x-20",
+            "left: 5rem; /* 80px */\nright: 5rem; /* 80px */\n"
+        ],
+        [
+            "inset-y-20",
+            "top: 5rem; /* 80px */\nbottom: 5rem; /* 80px */\n"
+        ],
+        [
+            "start-20",
+            "inset-inline-start: 5rem; /* 80px */\n"
+        ],
+        [
+            "end-20",
+            "inset-inline-end: 5rem; /* 80px */\n"
+        ],
+        [
+            "top-20",
+            "top: 5rem; /* 80px */\n"
+        ],
+        [
+            "right-20",
+            "right: 5rem; /* 80px */\n"
+        ],
+        [
+            "bottom-20",
+            "bottom: 5rem; /* 80px */\n"
+        ],
+        [
+            "left-20",
+            "left: 5rem; /* 80px */\n"
+        ],
+        [
+            "inset-24",
+            "inset: 6rem; /* 96px */\n"
+        ],
+        [
+            "inset-x-24",
+            "left: 6rem; /* 96px */\nright: 6rem; /* 96px */\n"
+        ],
+        [
+            "inset-y-24",
+            "top: 6rem; /* 96px */\nbottom: 6rem; /* 96px */\n"
+        ],
+        [
+            "start-24",
+            "inset-inline-start: 6rem; /* 96px */\n"
+        ],
+        [
+            "end-24",
+            "inset-inline-end: 6rem; /* 96px */\n"
+        ],
+        [
+            "top-24",
+            "top: 6rem; /* 96px */\n"
+        ],
+        [
+            "right-24",
+            "right: 6rem; /* 96px */\n"
+        ],
+        [
+            "bottom-24",
+            "bottom: 6rem; /* 96px */\n"
+        ],
+        [
+            "left-24",
+            "left: 6rem; /* 96px */\n"
+        ],
+        [
+            "inset-28",
+            "inset: 7rem; /* 112px */\n"
+        ],
+        [
+            "inset-x-28",
+            "left: 7rem; /* 112px */\nright: 7rem; /* 112px */\n"
+        ],
+        [
+            "inset-y-28",
+            "top: 7rem; /* 112px */\nbottom: 7rem; /* 112px */\n"
+        ],
+        [
+            "start-28",
+            "inset-inline-start: 7rem; /* 112px */\n"
+        ],
+        [
+            "end-28",
+            "inset-inline-end: 7rem; /* 112px */\n"
+        ],
+        [
+            "top-28",
+            "top: 7rem; /* 112px */\n"
+        ],
+        [
+            "right-28",
+            "right: 7rem; /* 112px */\n"
+        ],
+        [
+            "bottom-28",
+            "bottom: 7rem; /* 112px */\n"
+        ],
+        [
+            "left-28",
+            "left: 7rem; /* 112px */\n"
+        ],
+        [
+            "inset-32",
+            "inset: 8rem; /* 128px */\n"
+        ],
+        [
+            "inset-x-32",
+            "left: 8rem; /* 128px */\nright: 8rem; /* 128px */\n"
+        ],
+        [
+            "inset-y-32",
+            "top: 8rem; /* 128px */\nbottom: 8rem; /* 128px */\n"
+        ],
+        [
+            "start-32",
+            "inset-inline-start: 8rem; /* 128px */\n"
+        ],
+        [
+            "end-32",
+            "inset-inline-end: 8rem; /* 128px */\n"
+        ],
+        [
+            "top-32",
+            "top: 8rem; /* 128px */\n"
+        ],
+        [
+            "right-32",
+            "right: 8rem; /* 128px */\n"
+        ],
+        [
+            "bottom-32",
+            "bottom: 8rem; /* 128px */\n"
+        ],
+        [
+            "left-32",
+            "left: 8rem; /* 128px */\n"
+        ],
+        [
+            "inset-36",
+            "inset: 9rem; /* 144px */\n"
+        ],
+        [
+            "inset-x-36",
+            "left: 9rem; /* 144px */\nright: 9rem; /* 144px */\n"
+        ],
+        [
+            "inset-y-36",
+            "top: 9rem; /* 144px */\nbottom: 9rem; /* 144px */\n"
+        ],
+        [
+            "start-36",
+            "inset-inline-start: 9rem; /* 144px */\n"
+        ],
+        [
+            "end-36",
+            "inset-inline-end: 9rem; /* 144px */\n"
+        ],
+        [
+            "top-36",
+            "top: 9rem; /* 144px */\n"
+        ],
+        [
+            "right-36",
+            "right: 9rem; /* 144px */\n"
+        ],
+        [
+            "bottom-36",
+            "bottom: 9rem; /* 144px */\n"
+        ],
+        [
+            "left-36",
+            "left: 9rem; /* 144px */\n"
+        ],
+        [
+            "inset-40",
+            "inset: 10rem; /* 160px */\n"
+        ],
+        [
+            "inset-x-40",
+            "left: 10rem; /* 160px */\nright: 10rem; /* 160px */\n"
+        ],
+        [
+            "inset-y-40",
+            "top: 10rem; /* 160px */\nbottom: 10rem; /* 160px */\n"
+        ],
+        [
+            "start-40",
+            "inset-inline-start: 10rem; /* 160px */\n"
+        ],
+        [
+            "end-40",
+            "inset-inline-end: 10rem; /* 160px */\n"
+        ],
+        [
+            "top-40",
+            "top: 10rem; /* 160px */\n"
+        ],
+        [
+            "right-40",
+            "right: 10rem; /* 160px */\n"
+        ],
+        [
+            "bottom-40",
+            "bottom: 10rem; /* 160px */\n"
+        ],
+        [
+            "left-40",
+            "left: 10rem; /* 160px */\n"
+        ],
+        [
+            "inset-44",
+            "inset: 11rem; /* 176px */\n"
+        ],
+        [
+            "inset-x-44",
+            "left: 11rem; /* 176px */\nright: 11rem; /* 176px */\n"
+        ],
+        [
+            "inset-y-44",
+            "top: 11rem; /* 176px */\nbottom: 11rem; /* 176px */\n"
+        ],
+        [
+            "start-44",
+            "inset-inline-start: 11rem; /* 176px */\n"
+        ],
+        [
+            "end-44",
+            "inset-inline-end: 11rem; /* 176px */\n"
+        ],
+        [
+            "top-44",
+            "top: 11rem; /* 176px */\n"
+        ],
+        [
+            "right-44",
+            "right: 11rem; /* 176px */\n"
+        ],
+        [
+            "bottom-44",
+            "bottom: 11rem; /* 176px */\n"
+        ],
+        [
+            "left-44",
+            "left: 11rem; /* 176px */\n"
+        ],
+        [
+            "inset-48",
+            "inset: 12rem; /* 192px */\n"
+        ],
+        [
+            "inset-x-48",
+            "left: 12rem; /* 192px */\nright: 12rem; /* 192px */\n"
+        ],
+        [
+            "inset-y-48",
+            "top: 12rem; /* 192px */\nbottom: 12rem; /* 192px */\n"
+        ],
+        [
+            "start-48",
+            "inset-inline-start: 12rem; /* 192px */\n"
+        ],
+        [
+            "end-48",
+            "inset-inline-end: 12rem; /* 192px */\n"
+        ],
+        [
+            "top-48",
+            "top: 12rem; /* 192px */\n"
+        ],
+        [
+            "right-48",
+            "right: 12rem; /* 192px */\n"
+        ],
+        [
+            "bottom-48",
+            "bottom: 12rem; /* 192px */\n"
+        ],
+        [
+            "left-48",
+            "left: 12rem; /* 192px */\n"
+        ],
+        [
+            "inset-52",
+            "inset: 13rem; /* 208px */\n"
+        ],
+        [
+            "inset-x-52",
+            "left: 13rem; /* 208px */\nright: 13rem; /* 208px */\n"
+        ],
+        [
+            "inset-y-52",
+            "top: 13rem; /* 208px */\nbottom: 13rem; /* 208px */\n"
+        ],
+        [
+            "start-52",
+            "inset-inline-start: 13rem; /* 208px */\n"
+        ],
+        [
+            "end-52",
+            "inset-inline-end: 13rem; /* 208px */\n"
+        ],
+        [
+            "top-52",
+            "top: 13rem; /* 208px */\n"
+        ],
+        [
+            "right-52",
+            "right: 13rem; /* 208px */\n"
+        ],
+        [
+            "bottom-52",
+            "bottom: 13rem; /* 208px */\n"
+        ],
+        [
+            "left-52",
+            "left: 13rem; /* 208px */\n"
+        ],
+        [
+            "inset-56",
+            "inset: 14rem; /* 224px */\n"
+        ],
+        [
+            "inset-x-56",
+            "left: 14rem; /* 224px */\nright: 14rem; /* 224px */\n"
+        ],
+        [
+            "inset-y-56",
+            "top: 14rem; /* 224px */\nbottom: 14rem; /* 224px */\n"
+        ],
+        [
+            "start-56",
+            "inset-inline-start: 14rem; /* 224px */\n"
+        ],
+        [
+            "end-56",
+            "inset-inline-end: 14rem; /* 224px */\n"
+        ],
+        [
+            "top-56",
+            "top: 14rem; /* 224px */\n"
+        ],
+        [
+            "right-56",
+            "right: 14rem; /* 224px */\n"
+        ],
+        [
+            "bottom-56",
+            "bottom: 14rem; /* 224px */\n"
+        ],
+        [
+            "left-56",
+            "left: 14rem; /* 224px */\n"
+        ],
+        [
+            "inset-60",
+            "inset: 15rem; /* 240px */\n"
+        ],
+        [
+            "inset-x-60",
+            "left: 15rem; /* 240px */\nright: 15rem; /* 240px */\n"
+        ],
+        [
+            "inset-y-60",
+            "top: 15rem; /* 240px */\nbottom: 15rem; /* 240px */\n"
+        ],
+        [
+            "start-60",
+            "inset-inline-start: 15rem; /* 240px */\n"
+        ],
+        [
+            "end-60",
+            "inset-inline-end: 15rem; /* 240px */\n"
+        ],
+        [
+            "top-60",
+            "top: 15rem; /* 240px */\n"
+        ],
+        [
+            "right-60",
+            "right: 15rem; /* 240px */\n"
+        ],
+        [
+            "bottom-60",
+            "bottom: 15rem; /* 240px */\n"
+        ],
+        [
+            "left-60",
+            "left: 15rem; /* 240px */\n"
+        ],
+        [
+            "inset-64",
+            "inset: 16rem; /* 256px */\n"
+        ],
+        [
+            "inset-x-64",
+            "left: 16rem; /* 256px */\nright: 16rem; /* 256px */\n"
+        ],
+        [
+            "inset-y-64",
+            "top: 16rem; /* 256px */\nbottom: 16rem; /* 256px */\n"
+        ],
+        [
+            "start-64",
+            "inset-inline-start: 16rem; /* 256px */\n"
+        ],
+        [
+            "end-64",
+            "inset-inline-end: 16rem; /* 256px */\n"
+        ],
+        [
+            "top-64",
+            "top: 16rem; /* 256px */\n"
+        ],
+        [
+            "right-64",
+            "right: 16rem; /* 256px */\n"
+        ],
+        [
+            "bottom-64",
+            "bottom: 16rem; /* 256px */\n"
+        ],
+        [
+            "left-64",
+            "left: 16rem; /* 256px */\n"
+        ],
+        [
+            "inset-72",
+            "inset: 18rem; /* 288px */\n"
+        ],
+        [
+            "inset-x-72",
+            "left: 18rem; /* 288px */\nright: 18rem; /* 288px */\n"
+        ],
+        [
+            "inset-y-72",
+            "top: 18rem; /* 288px */\nbottom: 18rem; /* 288px */\n"
+        ],
+        [
+            "start-72",
+            "inset-inline-start: 18rem; /* 288px */\n"
+        ],
+        [
+            "end-72",
+            "inset-inline-end: 18rem; /* 288px */\n"
+        ],
+        [
+            "top-72",
+            "top: 18rem; /* 288px */\n"
+        ],
+        [
+            "right-72",
+            "right: 18rem; /* 288px */\n"
+        ],
+        [
+            "bottom-72",
+            "bottom: 18rem; /* 288px */\n"
+        ],
+        [
+            "left-72",
+            "left: 18rem; /* 288px */\n"
+        ],
+        [
+            "inset-80",
+            "inset: 20rem; /* 320px */\n"
+        ],
+        [
+            "inset-x-80",
+            "left: 20rem; /* 320px */\nright: 20rem; /* 320px */\n"
+        ],
+        [
+            "inset-y-80",
+            "top: 20rem; /* 320px */\nbottom: 20rem; /* 320px */\n"
+        ],
+        [
+            "start-80",
+            "inset-inline-start: 20rem; /* 320px */\n"
+        ],
+        [
+            "end-80",
+            "inset-inline-end: 20rem; /* 320px */\n"
+        ],
+        [
+            "top-80",
+            "top: 20rem; /* 320px */\n"
+        ],
+        [
+            "right-80",
+            "right: 20rem; /* 320px */\n"
+        ],
+        [
+            "bottom-80",
+            "bottom: 20rem; /* 320px */\n"
+        ],
+        [
+            "left-80",
+            "left: 20rem; /* 320px */\n"
+        ],
+        [
+            "inset-96",
+            "inset: 24rem; /* 384px */\n"
+        ],
+        [
+            "inset-x-96",
+            "left: 24rem; /* 384px */\nright: 24rem; /* 384px */\n"
+        ],
+        [
+            "inset-y-96",
+            "top: 24rem; /* 384px */\nbottom: 24rem; /* 384px */\n"
+        ],
+        [
+            "start-96",
+            "inset-inline-start: 24rem; /* 384px */\n"
+        ],
+        [
+            "end-96",
+            "inset-inline-end: 24rem; /* 384px */\n"
+        ],
+        [
+            "top-96",
+            "top: 24rem; /* 384px */\n"
+        ],
+        [
+            "right-96",
+            "right: 24rem; /* 384px */\n"
+        ],
+        [
+            "bottom-96",
+            "bottom: 24rem; /* 384px */\n"
+        ],
+        [
+            "left-96",
+            "left: 24rem; /* 384px */\n"
+        ],
+        [
+            "inset-auto",
+            "inset: auto;\n"
+        ],
+        [
+            "inset-1/2",
+            "inset: 50%;\n"
+        ],
+        [
+            "inset-1/3",
+            "inset: 33.333333%;\n"
+        ],
+        [
+            "inset-2/3",
+            "inset: 66.666667%;\n"
+        ],
+        [
+            "inset-1/4",
+            "inset: 25%;\n"
+        ],
+        [
+            "inset-2/4",
+            "inset: 50%;\n"
+        ],
+        [
+            "inset-3/4",
+            "inset: 75%;\n"
+        ],
+        [
+            "inset-full",
+            "inset: 100%;\n"
+        ],
+        [
+            "inset-x-auto",
+            "left: auto;\nright: auto;\n"
+        ],
+        [
+            "inset-x-1/2",
+            "left: 50%;\nright: 50%;\n"
+        ],
+        [
+            "inset-x-1/3",
+            "left: 33.333333%;\nright: 33.333333%;\n"
+        ],
+        [
+            "inset-x-2/3",
+            "left: 66.666667%;\nright: 66.666667%;\n"
+        ],
+        [
+            "inset-x-1/4",
+            "left: 25%;\nright: 25%;\n"
+        ],
+        [
+            "inset-x-2/4",
+            "left: 50%;\nright: 50%;\n"
+        ],
+        [
+            "inset-x-3/4",
+            "left: 75%;\nright: 75%;\n"
+        ],
+        [
+            "inset-x-full",
+            "left: 100%;\nright: 100%;\n"
+        ],
+        [
+            "inset-y-auto",
+            "top: auto;\nbottom: auto;\n"
+        ],
+        [
+            "inset-y-1/2",
+            "top: 50%;\nbottom: 50%;\n"
+        ],
+        [
+            "inset-y-1/3",
+            "top: 33.333333%;\nbottom: 33.333333%;\n"
+        ],
+        [
+            "inset-y-2/3",
+            "top: 66.666667%;\nbottom: 66.666667%;\n"
+        ],
+        [
+            "inset-y-1/4",
+            "top: 25%;\nbottom: 25%;\n"
+        ],
+        [
+            "inset-y-2/4",
+            "top: 50%;\nbottom: 50%;\n"
+        ],
+        [
+            "inset-y-3/4",
+            "top: 75%;\nbottom: 75%;\n"
+        ],
+        [
+            "inset-y-full",
+            "top: 100%;\nbottom: 100%;\n"
+        ],
+        [
+            "start-auto",
+            "inset-inline-start: auto;\n"
+        ],
+        [
+            "start-1/2",
+            "inset-inline-start: 50%;\n"
+        ],
+        [
+            "start-1/3",
+            "inset-inline-start: 33.333333%;\n"
+        ],
+        [
+            "start-2/3",
+            "inset-inline-start: 66.666667%;\n"
+        ],
+        [
+            "start-1/4",
+            "inset-inline-start: 25%;\n"
+        ],
+        [
+            "start-2/4",
+            "inset-inline-start: 50%;\n"
+        ],
+        [
+            "start-3/4",
+            "inset-inline-start: 75%;\n"
+        ],
+        [
+            "start-full",
+            "inset-inline-start: 100%;\n"
+        ],
+        [
+            "end-auto",
+            "inset-inline-end: auto;\n"
+        ],
+        [
+            "end-1/2",
+            "inset-inline-end: 50%;\n"
+        ],
+        [
+            "end-1/3",
+            "inset-inline-end: 33.333333%;\n"
+        ],
+        [
+            "end-2/3",
+            "inset-inline-end: 66.666667%;\n"
+        ],
+        [
+            "end-1/4",
+            "inset-inline-end: 25%;\n"
+        ],
+        [
+            "end-2/4",
+            "inset-inline-end: 50%;\n"
+        ],
+        [
+            "end-3/4",
+            "inset-inline-end: 75%;\n"
+        ],
+        [
+            "end-full",
+            "inset-inline-end: 100%;\n"
+        ],
+        [
+            "top-auto",
+            "top: auto;\n"
+        ],
+        [
+            "top-1/2",
+            "top: 50%;\n"
+        ],
+        [
+            "top-1/3",
+            "top: 33.333333%;\n"
+        ],
+        [
+            "top-2/3",
+            "top: 66.666667%;\n"
+        ],
+        [
+            "top-1/4",
+            "top: 25%;\n"
+        ],
+        [
+            "top-2/4",
+            "top: 50%;\n"
+        ],
+        [
+            "top-3/4",
+            "top: 75%;\n"
+        ],
+        [
+            "top-full",
+            "top: 100%;\n"
+        ],
+        [
+            "right-auto",
+            "right: auto;\n"
+        ],
+        [
+            "right-1/2",
+            "right: 50%;\n"
+        ],
+        [
+            "right-1/3",
+            "right: 33.333333%;\n"
+        ],
+        [
+            "right-2/3",
+            "right: 66.666667%;\n"
+        ],
+        [
+            "right-1/4",
+            "right: 25%;\n"
+        ],
+        [
+            "right-2/4",
+            "right: 50%;\n"
+        ],
+        [
+            "right-3/4",
+            "right: 75%;\n"
+        ],
+        [
+            "right-full",
+            "right: 100%;\n"
+        ],
+        [
+            "bottom-auto",
+            "bottom: auto;\n"
+        ],
+        [
+            "bottom-1/2",
+            "bottom: 50%;\n"
+        ],
+        [
+            "bottom-1/3",
+            "bottom: 33.333333%;\n"
+        ],
+        [
+            "bottom-2/3",
+            "bottom: 66.666667%;\n"
+        ],
+        [
+            "bottom-1/4",
+            "bottom: 25%;\n"
+        ],
+        [
+            "bottom-2/4",
+            "bottom: 50%;\n"
+        ],
+        [
+            "bottom-3/4",
+            "bottom: 75%;\n"
+        ],
+        [
+            "bottom-full",
+            "bottom: 100%;\n"
+        ],
+        [
+            "left-auto",
+            "left: auto;\n"
+        ],
+        [
+            "left-1/2",
+            "left: 50%;\n"
+        ],
+        [
+            "left-1/3",
+            "left: 33.333333%;\n"
+        ],
+        [
+            "left-2/3",
+            "left: 66.666667%;\n"
+        ],
+        [
+            "left-1/4",
+            "left: 25%;\n"
+        ],
+        [
+            "left-2/4",
+            "left: 50%;\n"
+        ],
+        [
+            "left-3/4",
+            "left: 75%;\n"
+        ],
+        [
+            "left-full",
+            "left: 100%;\n"
         ]
-    },
-    {
-        "name": "visibility",
-        "rows": [
-            {
-                "tw": "visible",
-                "css": "visibility: visible;\n"
-            },
-            {
-                "tw": "invisible",
-                "css": "visibility: hidden;\n"
-            },
-            {
-                "tw": "collapse",
-                "css": "visibility: collapse;\n"
-            }
+    ],
+    "https://tailwindcss.com/docs/visibility": [
+        [
+            "visible",
+            "visibility: visible;\n"
+        ],
+        [
+            "invisible",
+            "visibility: hidden;\n"
+        ],
+        [
+            "collapse",
+            "visibility: collapse;\n"
         ]
-    },
-    {
-        "name": "z-index",
-        "rows": [
-            {
-                "tw": "z-0",
-                "css": "z-index: 0;\n"
-            },
-            {
-                "tw": "z-10",
-                "css": "z-index: 10;\n"
-            },
-            {
-                "tw": "z-20",
-                "css": "z-index: 20;\n"
-            },
-            {
-                "tw": "z-30",
-                "css": "z-index: 30;\n"
-            },
-            {
-                "tw": "z-40",
-                "css": "z-index: 40;\n"
-            },
-            {
-                "tw": "z-50",
-                "css": "z-index: 50;\n"
-            },
-            {
-                "tw": "z-auto",
-                "css": "z-index: auto;\n"
-            }
+    ],
+    "https://tailwindcss.com/docs/z-index": [
+        [
+            "z-0",
+            "z-index: 0;\n"
+        ],
+        [
+            "z-10",
+            "z-index: 10;\n"
+        ],
+        [
+            "z-20",
+            "z-index: 20;\n"
+        ],
+        [
+            "z-30",
+            "z-index: 30;\n"
+        ],
+        [
+            "z-40",
+            "z-index: 40;\n"
+        ],
+        [
+            "z-50",
+            "z-index: 50;\n"
+        ],
+        [
+            "z-auto",
+            "z-index: auto;\n"
         ]
-    }
-]
+    ]
+}

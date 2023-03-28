@@ -3,13 +3,13 @@ import { useQuery } from 'react-query'
 import Group from './Group'
 
 /* this points to the manually written data file hosted on github */
-const url =
+const groups =
     'https://raw.githubusercontent.com/laszloekovacs/tailwind-checklist/master/data/groups.json'
 
 /* fetch the groups.json from the repo directly */
 /** @type {import('../global').getGroupList} */
 const getGroupList = async () => {
-    const response = await fetch(url)
+    const response = await fetch(groups)
     const data = await response.json()
     return data
 }

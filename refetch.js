@@ -17,7 +17,7 @@ async function main() {
         datajson.groups = datajson.groups.slice(0, 1)
         //datajson.groups[0].content = datajson.groups[0].content.slice(0, 1)
 
-        let tooltips = []
+        let tooltips = {}
 
         for (let group of datajson.groups) {
             console.log('starting group: ' + group.title)
@@ -51,18 +51,17 @@ async function main() {
                 for (let i = 0; i < tableBody.childNodes.length; i++) {
                     const tw = tableBody.childNodes[i].childNodes[0].text
                     const css = tableBody.childNodes[i].childNodes[1].text
-                    rowsArr = [...rowsArr, { tw: tw, css: css }]
+                    rowsArr = [...rowsArr, [tw, css]]
                 }
 
                 console.log('extracted ' + rowsArr.length + ' rows')
 
                 /* add rows and the name and the url to the final tooltip dataset */
-                tooltips = [...tooltips, { name: item, rows: rowsArr }]
+                tooltips[url] = rowsArr
             }
         }
 
         /* dump the final dataset to the console then write it into a file */
-        //console.log(tooltips)
 
         fs.writeFileSync(
             './data/tooltips.json',

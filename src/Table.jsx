@@ -1,26 +1,40 @@
 import React from 'react'
-import { useQuery } from 'react-query'
-import extractTable from './extractTable'
-import { storeString, loadString } from './localstorage'
+
+import tooltips from '../data/tooltips.json'
 
 /*
     shows the table scraped from the website.
-    it doesn"t start to load immediately, so not to spam the server.
-    ReactQuery will cache the result.
-    TODO: maybe even store it in local storage.
 */
 const Table = ({ link }) => {
-    const { error, data, isLoading } = useQuery(link, async () => {
-        try {
-            return 'done loading for now'
-        } catch (e) {
-            console.log(e)
-        }
-    })
+    console.log(link)
+    const tableRows = tooltips[link]
 
-    if (isLoading) return <p>loading...</p>
+    if (!tableRows) {
+        return <div>no data</div>
+    }
 
-    return <div>{data}</div>
+    return (
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>tailwind class</th>
+                        <th>css</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {tableRows.map((row, index) => {
+                        return (
+                            <tr key={index}>
+                                <td>{row[0]}</td>
+                                <td>{row[1]}</td>
+                            </tr>
+                        )
+                    })}
+                </tbody>
+            </table>
+        </div>
+    )
 }
 
 export default Table
