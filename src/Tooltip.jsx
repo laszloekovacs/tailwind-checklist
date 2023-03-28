@@ -19,7 +19,7 @@ const Tooltip = ({ link, parentRef }) => {
     const xpos = isParentOnLeft ? '-left-[12rem] md:-left-[24rem]' : 'left-16'
     const ypos = isParentOnTop ? '-bottom-0' : '-top-0'
 
-    const styling = `bg-red-100 md:bg-blue-300 overflow-auto opacity-100 absolute z-2 w-[12rem] md:w-[24rem] max-h-[20rem] p-2 border-2 border-black rounded ${xpos} ${ypos}`
+    const styling = `overscroll-contain bg-red-100 md:bg-blue-300 overflow-auto opacity-100 absolute z-20 w-[12rem] md:w-[24rem] max-h-[30vh] p-2 border-2 border-black rounded ${xpos} ${ypos}`
 
     return (
         <div className={styling}>

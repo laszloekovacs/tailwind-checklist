@@ -20,7 +20,10 @@ const Item = ({ link }) => {
         >
             {showTip && <Tooltip link={baseUrl + link} parentRef={itemRef} />}
 
-            <a className="hover:text-cyan-600" href={baseUrl + link}>
+            <a
+                className="light:hover:text-cyan-600 dark:hover:text-cyan-200"
+                href={baseUrl + link}
+            >
                 {link}
             </a>
         </li>

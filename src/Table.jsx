@@ -15,26 +15,27 @@ const Table = ({ link }) => {
     }
 
     return (
-        <div className="text-sm">
-            <table className="table-auto">
-                <thead>
-                    <tr>
-                        <th>tailwind class</th>
-                        <th>css</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {tableRows.map((row, index) => {
-                        return (
-                            <tr key={index}>
-                                <td>{row[0]}</td>
-                                <td>{row[1]}</td>
-                            </tr>
-                        )
-                    })}
-                </tbody>
-            </table>
-        </div>
+        <table className="text-sm table-auto w-full break-keep">
+            <thead>
+                <tr>
+                    <th>tailwind class</th>
+                    <th>css</th>
+                </tr>
+            </thead>
+            <tbody>
+                {tableRows.map((row, index) => {
+                    return (
+                        <tr
+                            key={index}
+                            className="odd:bg-opacity-25 bg-black bg-opacity-0"
+                        >
+                            <td className="whitespace-nowrap pr-3">{row[0]}</td>
+                            <td>{row[1]}</td>
+                        </tr>
+                    )
+                })}
+            </tbody>
+        </table>
     )
 }
 
